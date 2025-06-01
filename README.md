@@ -1,0 +1,2 @@
+# LFE5UM5G-85F_SOM
+FPGA SoM with DDR based on Lattice LFE5UM5G-85F
