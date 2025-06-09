@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.4">
+  <diagram name="Page-1" id="FCZs8u26Ppq5E-HGaB5X">
+    <mxGraphModel dx="1042" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dwvbmkx9nh_JgkbrfViO-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;HW: PCB&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;FPGA +DDR&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Custom SOM (Lattice LFE5UM5G-85F) + baseboard" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="160" y="390" width="530" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dwvbmkx9nh_JgkbrfViO-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;HW: FPGA design&lt;br&gt;RISC-V +MMU&lt;/font&gt;&lt;/b&gt;&lt;br&gt;RISC-V in FPGA&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="160" y="310" width="530" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dwvbmkx9nh_JgkbrfViO-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;SW: OS&lt;br&gt;LINUX&lt;br&gt;&lt;/font&gt;&lt;/b&gt;Running on RISC-V" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="160" y="230" width="530" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dwvbmkx9nh_JgkbrfViO-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;SW: APP&lt;/font&gt;&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="160" y="150" width="530" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
