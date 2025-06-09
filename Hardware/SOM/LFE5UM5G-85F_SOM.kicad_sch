@@ -6,7 +6,49 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 113.03 52.07)
+		(at 115.57 52.07)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5afb2ac4-dadb-4f86-a03f-bc72f6fc34d4")
+		(property "Sheetname" "Connector"
+			(at 115.57 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connector.kicad_sch"
+			(at 115.57 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LFE5UM5G-85F_SOM"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 52.07)
 		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +64,7 @@
 		)
 		(uuid "70285655-daa5-4a1b-b29b-80c93a345d65")
 		(property "Sheetname" "DDR"
-			(at 113.03 51.3584 0)
+			(at 95.25 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,8 +72,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ddr.kicad_sch"
-			(at 113.03 62.8146 0)
+		(property "Sheetfile" "DDR.kicad_sch"
+			(at 95.25 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,7 +114,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "io.kicad_sch"
+		(property "Sheetfile" "FPGA.kicad_sch"
 			(at 74.93 62.8146 0)
 			(effects
 				(font
