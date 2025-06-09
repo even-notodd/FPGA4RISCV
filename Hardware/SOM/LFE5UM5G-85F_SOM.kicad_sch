@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "70285655-daa5-4a1b-b29b-80c93a345d65")
-		(property "Sheetname" "DDR Memory"
+		(property "Sheetname" "DDR"
 			(at 113.03 51.3584 0)
 			(effects
 				(font
@@ -63,7 +63,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c389ef9b-5ef6-4b55-8e02-1ff1b5373fc6")
-		(property "Sheetname" "IO Banks"
+		(property "Sheetname" "FPGA"
 			(at 74.93 51.3584 0)
 			(effects
 				(font
@@ -84,7 +84,7 @@
 		(instances
 			(project "LFE5UM5G-85F_SOM"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2"
-					(page "4")
+					(page "2")
 				)
 			)
 		)

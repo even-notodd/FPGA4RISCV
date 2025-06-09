@@ -10,7 +10,7 @@ Overview ():
 
 # SOM
 SOM is supposed to be designed in a format of a SO-DIMM card (Small Outline Dual Inline Memory Module) with standard 200 pin
-SoM is based on Lattice FPGA chip LFE5UM5G-85F with dedicated DDR memory.
+SoM is based on Lattice FPGA chip LFE5UM5G-85F with dedicated DDR3 memory.
 
 # Baseboard
 Baseboard is supposed to be more or less generic baseboard and planned to be used with other SoMs. Concequently it must have:

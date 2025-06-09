@@ -604,12 +604,12 @@
       "Root"
     ],
     [
-      "70285655-daa5-4a1b-b29b-80c93a345d65",
-      "DDR Memory"
+      "c389ef9b-5ef6-4b55-8e02-1ff1b5373fc6",
+      "FPGA"
     ],
     [
-      "c389ef9b-5ef6-4b55-8e02-1ff1b5373fc6",
-      "IO Banks"
+      "70285655-daa5-4a1b-b29b-80c93a345d65",
+      "DDR"
     ]
   ],
   "text_variables": {}
