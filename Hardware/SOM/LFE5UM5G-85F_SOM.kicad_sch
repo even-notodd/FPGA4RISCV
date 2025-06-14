@@ -3,16 +3,15 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "de32abb0-ff3b-4c67-a91a-eed08140b1b2")
-	(paper "A4")
+	(paper "A4" portrait)
 	(lib_symbols)
 	(sheet
-		(at 115.57 52.07)
-		(size 12.7 10.16)
+		(at 88.9 115.57)
+		(size 33.02 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -21,22 +20,25 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5afb2ac4-dadb-4f86-a03f-bc72f6fc34d4")
-		(property "Sheetname" "Connector"
-			(at 115.57 51.3584 0)
+		(property "Sheetname" "SOM Connector"
+			(at 90.678 122.428 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "Connector.kicad_sch"
-			(at 115.57 62.8146 0)
+			(at 88.9 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -48,13 +50,12 @@
 		)
 	)
 	(sheet
-		(at 95.25 52.07)
+		(at 109.22 100.33)
 		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -64,21 +65,24 @@
 		)
 		(uuid "70285655-daa5-4a1b-b29b-80c93a345d65")
 		(property "Sheetname" "DDR"
-			(at 95.25 51.3584 0)
+			(at 111.252 107.188 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "DDR.kicad_sch"
-			(at 95.25 62.8146 0)
+			(at 109.22 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -90,13 +94,12 @@
 		)
 	)
 	(sheet
-		(at 74.93 52.07)
+		(at 88.9 100.33)
 		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -106,21 +109,24 @@
 		)
 		(uuid "c389ef9b-5ef6-4b55-8e02-1ff1b5373fc6")
 		(property "Sheetname" "FPGA"
-			(at 74.93 51.3584 0)
+			(at 89.916 107.188 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "FPGA.kicad_sch"
-			(at 74.93 62.8146 0)
+			(at 88.9 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances

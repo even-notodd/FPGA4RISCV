@@ -608,6 +608,10 @@
       "Power supply"
     ],
     [
+      "3e341a33-6cca-42a8-9d48-3fc3ef712dcd",
+      "SOM_Connector"
+    ],
+    [
       "e8a9a6a8-2e08-4606-b058-44f01919fc3b",
       "JTAG"
     ]

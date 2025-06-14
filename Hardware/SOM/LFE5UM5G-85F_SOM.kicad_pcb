@@ -12386,5 +12386,72 @@
 			)
 		)
 	)
+	(gr_line
+		(start 51.45 51.625)
+		(end 51.45 49.62)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "716f7d0c-b145-4deb-b6f9-e7f31b789db5")
+	)
+	(gr_line
+		(start 119.05 49.62)
+		(end 51.45 49.62)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dc8ea6f8-c878-4d07-949d-9b8c27dc325f")
+	)
+	(gr_line
+		(start 119.05 51.625)
+		(end 119.05 49.62)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e217f7d8-6b1e-48c2-9284-5f6f5259da1b")
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "4bf165b6-2f58-4618-9888-5519d17305fd")
+		(pts
+			(xy 50.95 49.62) (xy 50.95 77.53)
+		)
+		(height -9.15)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "27,9100 mm"
+			(at 40 63.575 90)
+			(layer "F.Cu")
+			(uuid "4bf165b6-2f58-4618-9888-5519d17305fd")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
 	(embedded_fonts no)
 )

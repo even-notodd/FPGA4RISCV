@@ -6,13 +6,55 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 76.2 52.07)
-		(size 12.7 10.16)
+		(at 57.15 68.58)
+		(size 30.48 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3e341a33-6cca-42a8-9d48-3fc3ef712dcd")
+		(property "Sheetname" "SOM_Connector"
+			(at 57.404 75.438 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "som.kicad_sch"
+			(at 57.15 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA4RISCV_BB"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 52.07)
+		(size 26.67 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -22,10 +64,12 @@
 		)
 		(uuid "57e37972-bd2e-4cdb-a07a-d9ebb5243a88")
 		(property "Sheetname" "Power supply"
-			(at 76.2 51.3584 0)
+			(at 76.2 58.928 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -54,7 +98,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -64,10 +107,12 @@
 		)
 		(uuid "e8a9a6a8-2e08-4606-b058-44f01919fc3b")
 		(property "Sheetname" "JTAG"
-			(at 57.15 51.3584 0)
+			(at 58.674 58.928 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
