@@ -3746,6 +3746,38 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 81.28 30.48) (xy 86.36 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f2821a-724b-47a6-a145-c7474dab8df7")
+	)
+	(global_label "ANY"
+		(shape input)
+		(at 86.36 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a0a1206-05f8-40d4-a4e4-0cbf66b63b88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.8529 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:SODIMM-200_Split")
 		(at 139.7 53.34 0)
@@ -3753,7 +3785,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "14af7d97-30cb-4722-b1d9-1c732bf7fd7a")
 		(property "Reference" "J1"
@@ -4433,7 +4465,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8772845a-019d-48b3-a8ae-c2767cdb330b")
 		(property "Reference" "J1"
@@ -5113,7 +5145,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f0e7db17-e753-4610-934d-515ee5ce506c")
 		(property "Reference" "J1"
@@ -5793,7 +5825,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f0f41b3e-4ce8-46e5-a98c-5b8a7a2efe58")
 		(property "Reference" "J1"
@@ -6473,7 +6505,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fe4a056b-0852-4c16-acb0-d0e4ec50e50c")
 		(property "Reference" "J1"

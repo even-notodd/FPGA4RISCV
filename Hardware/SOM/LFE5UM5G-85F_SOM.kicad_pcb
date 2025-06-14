@@ -131,7 +131,7 @@
 	(net 51 "unconnected-(J1-Pad122)")
 	(net 52 "unconnected-(J1-Pad55)")
 	(net 53 "unconnected-(J1-Pad152)")
-	(net 54 "unconnected-(J1-Pad2)")
+	(net 54 "ANY")
 	(net 55 "unconnected-(J1-Pad42)")
 	(net 56 "unconnected-(J1-Pad94)")
 	(net 57 "unconnected-(J1-Pad96)")
@@ -691,7 +691,7 @@
 		)
 		(path "/70285655-daa5-4a1b-b29b-80c93a345d65/cde322dd-a144-402c-87aa-44541f7feeda")
 		(sheetname "/DDR/")
-		(sheetfile "ddr.kicad_sch")
+		(sheetfile "DDR.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -916,7 +916,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/70285655-daa5-4a1b-b29b-80c93a345d65/3774d0dc-74d1-4e82-a680-69a1f359eae1")
 		(sheetname "/DDR/")
-		(sheetfile "ddr.kicad_sch")
+		(sheetfile "DDR.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.93 -0.47)
@@ -1124,9 +1124,9 @@
 		)
 		(property ki_fp_filters "*SODIMM*")
 		(path "/5afb2ac4-dadb-4f86-a03f-bc72f6fc34d4/f0f41b3e-4ce8-46e5-a98c-5b8a7a2efe58")
-		(sheetname "/Connector/")
-		(sheetfile "connector.kicad_sch")
-		(attr exclude_from_pos_files allow_soldermask_bridges)
+		(sheetname "/SOM Connector/")
+		(sheetfile "Connector.kicad_sch")
+		(attr exclude_from_pos_files dnp allow_soldermask_bridges)
 		(fp_rect
 			(start -0.352 -1.302)
 			(end 13.6 1.302)
@@ -2154,7 +2154,7 @@
 			(at 0.3 0)
 			(size 0.45 2.35)
 			(layers "B.Cu" "B.Mask")
-			(net 54 "unconnected-(J1-Pad2)")
+			(net 54 "ANY")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "45d5fcb5-d588-437c-bd05-334bef6720cf")
@@ -4420,7 +4420,7 @@
 		)
 		(path "/70285655-daa5-4a1b-b29b-80c93a345d65/10680981-4019-47b0-aaf2-8aa32c5ed12b")
 		(sheetname "/DDR/")
-		(sheetfile "ddr.kicad_sch")
+		(sheetfile "DDR.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -4657,7 +4657,7 @@
 		)
 		(path "/70285655-daa5-4a1b-b29b-80c93a345d65/0b95a399-2a8d-49b8-b0f1-bf7594f30110")
 		(sheetname "/DDR/")
-		(sheetfile "ddr.kicad_sch")
+		(sheetfile "DDR.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -4894,7 +4894,7 @@
 		)
 		(path "/70285655-daa5-4a1b-b29b-80c93a345d65/80a7a0c3-cf56-41f5-88bf-53842111f9d0")
 		(sheetname "/DDR/")
-		(sheetfile "ddr.kicad_sch")
+		(sheetfile "DDR.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -5131,7 +5131,7 @@
 		)
 		(path "/70285655-daa5-4a1b-b29b-80c93a345d65/ed430460-5591-4ef8-980c-9eb8650ab0ae")
 		(sheetname "/DDR/")
-		(sheetfile "ddr.kicad_sch")
+		(sheetfile "DDR.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -5368,7 +5368,7 @@
 		)
 		(path "/70285655-daa5-4a1b-b29b-80c93a345d65/488d3327-6b10-47e8-a03e-09cbdd09d9c1")
 		(sheetname "/DDR/")
-		(sheetfile "ddr.kicad_sch")
+		(sheetfile "DDR.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -5605,7 +5605,7 @@
 		)
 		(path "/70285655-daa5-4a1b-b29b-80c93a345d65/4b2f1d95-7def-4dcf-9cba-05ce5f57cbc7")
 		(sheetname "/DDR/")
-		(sheetfile "ddr.kicad_sch")
+		(sheetfile "DDR.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -5842,7 +5842,7 @@
 		)
 		(path "/70285655-daa5-4a1b-b29b-80c93a345d65/182e2984-216d-4fb7-bf67-dd1f0a84f186")
 		(sheetname "/DDR/")
-		(sheetfile "ddr.kicad_sch")
+		(sheetfile "DDR.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -6041,7 +6041,7 @@
 		(property ki_fp_filters "Lattice?caBGA*17x17mm*Layout20x20*P0.8mm*")
 		(path "/c389ef9b-5ef6-4b55-8e02-1ff1b5373fc6/766d88d2-6cf7-4995-ab3e-210aaf924a60")
 		(sheetname "/FPGA/")
-		(sheetfile "io.kicad_sch")
+		(sheetfile "FPGA.kicad_sch")
 		(solder_mask_margin 0.075)
 		(attr smd)
 		(fp_line
@@ -10101,7 +10101,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/70285655-daa5-4a1b-b29b-80c93a345d65/bc4bee3e-998f-463f-9864-da3160adb850")
 		(sheetname "/DDR/")
-		(sheetfile "ddr.kicad_sch")
+		(sheetfile "DDR.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.93 -0.47)
@@ -10320,7 +10320,7 @@
 		)
 		(path "/70285655-daa5-4a1b-b29b-80c93a345d65/3cf8789e-161b-4a34-b6de-12c6d516964b")
 		(sheetname "/DDR/")
-		(sheetfile "ddr.kicad_sch")
+		(sheetfile "DDR.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -10557,7 +10557,7 @@
 		)
 		(path "/70285655-daa5-4a1b-b29b-80c93a345d65/19594bd0-3f2d-422a-b9a2-25b9833d50bc")
 		(sheetname "/DDR/")
-		(sheetfile "ddr.kicad_sch")
+		(sheetfile "DDR.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -10794,7 +10794,7 @@
 		)
 		(path "/70285655-daa5-4a1b-b29b-80c93a345d65/b00c291d-1935-42dc-9e3e-64e00c83c48f")
 		(sheetname "/DDR/")
-		(sheetfile "ddr.kicad_sch")
+		(sheetfile "DDR.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -11021,7 +11021,7 @@
 		(property ki_fp_filters "BGA*9.0x13.0mm*P0.8mm*")
 		(path "/70285655-daa5-4a1b-b29b-80c93a345d65/ac960517-1b4e-4bc6-b4e9-0cab1818ddd9")
 		(sheetname "/DDR/")
-		(sheetfile "ddr.kicad_sch")
+		(sheetfile "DDR.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.6 -6.28)
@@ -12242,7 +12242,7 @@
 		)
 		(path "/70285655-daa5-4a1b-b29b-80c93a345d65/ec6e8fbd-a5f4-4991-8cb4-e21a128dde4f")
 		(sheetname "/DDR/")
-		(sheetfile "ddr.kicad_sch")
+		(sheetfile "DDR.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -12415,43 +12415,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e217f7d8-6b1e-48c2-9284-5f6f5259da1b")
-	)
-	(dimension
-		(type orthogonal)
-		(layer "F.Cu")
-		(uuid "4bf165b6-2f58-4618-9888-5519d17305fd")
-		(pts
-			(xy 50.95 49.62) (xy 50.95 77.53)
-		)
-		(height -9.15)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "27,9100 mm"
-			(at 40 63.575 90)
-			(layer "F.Cu")
-			(uuid "4bf165b6-2f58-4618-9888-5519d17305fd")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
 	)
 	(embedded_fonts no)
 )
