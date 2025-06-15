@@ -5,8 +5,108 @@
 	(uuid "de32abb0-ff3b-4c67-a91a-eed08140b1b2")
 	(paper "A4" portrait)
 	(lib_symbols)
+	(rectangle
+		(start 39.37 20.32)
+		(end 101.6 93.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 256b1c5a-27fb-494c-9db9-bdc4dd77ec8c)
+	)
 	(sheet
-		(at 88.9 115.57)
+		(at 54.61 36.83)
+		(size 15.24 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2798ff7a-264e-45e9-a081-6e03072ed147")
+		(property "Sheetname" "QSPI"
+			(at 57.404 43.688 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "QSPI.kicad_sch"
+			(at 54.61 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LFE5UM5G-85F_SOM"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 36.83)
+		(size 15.24 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "43f6cb83-1191-4b95-bd87-2dcb3953d05b")
+		(property "Sheetname" "DBG"
+			(at 75.946 43.942 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DBG.kicad_sch"
+			(at 72.39 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LFE5UM5G-85F_SOM"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 62.23)
 		(size 33.02 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21,7 +121,7 @@
 		)
 		(uuid "5afb2ac4-dadb-4f86-a03f-bc72f6fc34d4")
 		(property "Sheetname" "SOM Connector"
-			(at 90.678 122.428 0)
+			(at 56.388 69.088 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -32,7 +132,7 @@
 			)
 		)
 		(property "Sheetfile" "Connector.kicad_sch"
-			(at 88.9 126.3146 0)
+			(at 54.61 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,8 +150,8 @@
 		)
 	)
 	(sheet
-		(at 109.22 100.33)
-		(size 12.7 10.16)
+		(at 72.39 49.53)
+		(size 15.24 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -65,7 +165,7 @@
 		)
 		(uuid "70285655-daa5-4a1b-b29b-80c93a345d65")
 		(property "Sheetname" "DDR"
-			(at 111.252 107.188 0)
+			(at 75.692 56.642 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -76,7 +176,7 @@
 			)
 		)
 		(property "Sheetfile" "DDR.kicad_sch"
-			(at 109.22 111.0746 0)
+			(at 72.39 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94,8 +194,52 @@
 		)
 	)
 	(sheet
-		(at 88.9 100.33)
-		(size 12.7 10.16)
+		(at 54.61 74.93)
+		(size 33.02 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c12b65b4-6107-4b66-8aa5-205f87459293")
+		(property "Sheetname" "Power Supply"
+			(at 58.166 82.042 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PS.kicad_sch"
+			(at 54.61 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LFE5UM5G-85F_SOM"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 49.53)
+		(size 15.24 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -109,7 +253,7 @@
 		)
 		(uuid "c389ef9b-5ef6-4b55-8e02-1ff1b5373fc6")
 		(property "Sheetname" "FPGA"
-			(at 89.916 107.188 0)
+			(at 56.896 56.642 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -120,7 +264,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA.kicad_sch"
-			(at 88.9 111.0746 0)
+			(at 54.61 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
