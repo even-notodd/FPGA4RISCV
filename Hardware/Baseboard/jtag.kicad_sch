@@ -3202,6 +3202,12 @@
 		(uuid "115e0d9b-683e-482d-9da4-a11a5f1aa5d7")
 	)
 	(junction
+		(at 207.01 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11b36e9a-fb99-4276-8716-82c1e8a273b2")
+	)
+	(junction
 		(at 77.47 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3220,10 +3226,10 @@
 		(uuid "1895dd84-c864-4cd7-84cb-d7d688bd2e8b")
 	)
 	(junction
-		(at 207.01 85.09)
+		(at 199.39 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "19b6e086-eb3a-40fb-853d-053d1882bc7f")
+		(uuid "200413a2-3638-4a8f-a667-c47ac4b9fd4a")
 	)
 	(junction
 		(at 139.7 168.91)
@@ -3302,6 +3308,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41309460-fd6d-42ca-a19a-e62dbad635c3")
+	)
+	(junction
+		(at 195.58 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42b51ebd-c6e8-4bc8-98bf-da0b7f3fc66e")
 	)
 	(junction
 		(at 186.69 52.07)
@@ -3436,12 +3448,6 @@
 		(uuid "ac7e9ac7-e83f-4128-aa9b-e8dabd1c9cdc")
 	)
 	(junction
-		(at 199.39 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af3a5882-da85-47ff-a47e-5356bbb838c6")
-	)
-	(junction
 		(at 215.9 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3518,12 +3524,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ded52108-0a53-42b7-a6f7-7202f04375d8")
-	)
-	(junction
-		(at 199.39 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2958c72-5980-49a9-836c-3a79bb9bb9f1")
 	)
 	(junction
 		(at 179.07 39.37)
@@ -3697,6 +3697,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 95.25) (xy 199.39 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10acf709-cccb-49d2-9496-118b244c09ff")
+	)
+	(wire
+		(pts
 			(xy 102.87 99.06) (xy 102.87 102.87)
 		)
 		(stroke
@@ -3727,7 +3737,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 77.47) (xy 191.77 85.09)
+			(xy 191.77 77.47) (xy 191.77 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3757,7 +3767,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 77.47) (xy 199.39 85.09)
+			(xy 199.39 77.47) (xy 199.39 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4017,7 +4027,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 77.47) (xy 207.01 85.09)
+			(xy 207.01 77.47) (xy 207.01 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4097,7 +4107,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 85.09) (xy 207.01 85.09)
+			(xy 199.39 80.01) (xy 207.01 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4137,7 +4147,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 95.25) (xy 191.77 93.98)
+			(xy 191.77 96.52) (xy 191.77 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4287,7 +4297,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 93.98) (xy 199.39 95.25)
+			(xy 199.39 95.25) (xy 199.39 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4387,7 +4397,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 102.87) (xy 191.77 109.22)
+			(xy 191.77 104.14) (xy 191.77 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4457,6 +4467,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 80.01) (xy 218.44 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7591e15f-5074-4c80-8b80-f64526e56c45")
+	)
+	(wire
+		(pts
 			(xy 207.01 68.58) (xy 219.71 68.58)
 		)
 		(stroke
@@ -4507,7 +4527,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 102.87) (xy 199.39 106.68)
+			(xy 199.39 104.14) (xy 199.39 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4627,7 +4647,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 85.09) (xy 214.63 85.09)
+			(xy 207.01 80.01) (xy 218.44 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5027,16 +5047,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 85.09) (xy 199.39 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1a24bcf-d145-46df-8b59-5beba1824b42")
-	)
-	(wire
-		(pts
 			(xy 96.52 113.03) (xy 102.87 113.03)
 		)
 		(stroke
@@ -5047,7 +5057,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 93.98) (xy 199.39 93.98)
+			(xy 191.77 95.25) (xy 195.58 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5234,6 +5244,16 @@
 			(type default)
 		)
 		(uuid "cd52f3ed-25bf-4585-b463-599126782a45")
+	)
+	(wire
+		(pts
+			(xy 195.58 93.98) (xy 195.58 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd938b49-9380-4eb0-91f6-7b1c87f40e9f")
 	)
 	(wire
 		(pts
@@ -5487,7 +5507,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 85.09) (xy 199.39 85.09)
+			(xy 191.77 80.01) (xy 199.39 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5564,6 +5584,46 @@
 			(type default)
 		)
 		(uuid "ff044e9d-ba9f-4fe8-85c9-7be51dc90a96")
+	)
+	(label "JTAG_TCK"
+		(at 210.82 60.96 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "06a89aed-fa9c-495d-ba4f-961943c7bbf1")
+	)
+	(label "JTAG_TMS"
+		(at 210.82 68.58 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "271e9c63-8dd9-4cfc-9cf0-16adb28def90")
+	)
+	(label "JTAG_TDO"
+		(at 210.82 66.04 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "82cdc365-25fe-4b18-b5db-e99e6ac5b1d3")
+	)
+	(label "JTAG_TDI"
+		(at 210.82 63.5 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "897aff1a-98f5-43d4-ab20-f671e672ebae")
 	)
 	(global_label "FT_UART_RxD"
 		(shape input)
@@ -5827,10 +5887,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "65a21dbb-ec3a-49ae-a8fb-67e481f81f83")
+			(uuid "6b7d3828-6145-4931-9651-b1109350d420")
 		)
 		(pin "2"
-			(uuid "a3a178b8-8926-4920-8d29-a5a84f3af7d8")
+			(uuid "18272135-3a97-4bb6-9a49-534c5d870efe")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -5927,10 +5987,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1223fa17-aefb-4518-b1a4-0b27296b6483")
+			(uuid "f185f921-09ba-4f50-9995-5bcfc9c8ba4c")
 		)
 		(pin "2"
-			(uuid "d58ad25f-e0ad-4695-9bde-3feadc814f4f")
+			(uuid "ee127451-a805-4bfa-a0a4-7bb5f68e5e1f")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -6027,10 +6087,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "dcbd7730-1564-475b-be2d-c5e050085936")
+			(uuid "904c4848-10da-4f21-8fa5-f688fd14a285")
 		)
 		(pin "2"
-			(uuid "32b403ce-7820-444b-b2a9-69c7b84859fc")
+			(uuid "4a50797a-577a-4b7a-9614-24d10e18a91b")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -6114,10 +6174,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "558e7809-37a2-4c96-ba9c-c08dcbbff732")
+			(uuid "dbdb9ff6-08b6-46eb-b1c7-437df76d6302")
 		)
 		(pin "2"
-			(uuid "8ff1b565-c51f-4cbf-a57b-e1425ca73c51")
+			(uuid "04f40200-6f88-4c87-afc0-f8f577faa7e7")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -6182,7 +6242,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "69eef375-d46f-4f1c-aa03-17670483dbe5")
+			(uuid "9cbd6d9c-528b-4717-9f97-7b1a71609bf8")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -6264,10 +6324,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a579bd57-65d0-444b-8366-7a85ec7c9c78")
+			(uuid "9806f98d-125b-4bb3-9368-0953a8049494")
 		)
 		(pin "1"
-			(uuid "5ac448bf-7227-42bf-ac3c-24eb5adc3165")
+			(uuid "90a71791-c6d9-471d-8e50-5760cfc85792")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -6332,7 +6392,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "45539be4-f878-49d0-9768-b3aed1c66322")
+			(uuid "0e33c057-ebcf-4cb8-be66-5eab44eb5bbd")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -6429,15 +6489,80 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a285210-3a7a-44e1-91bd-e5c55ef7095c")
+			(uuid "b61309cd-b74b-4ce0-8c3e-79d4c63a00b4")
 		)
 		(pin "2"
-			(uuid "4428dec5-b61a-417a-b51f-c54830390c76")
+			(uuid "085274e1-36fc-48e9-b43b-4802c7c79ab7")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 195.58 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "305d5ed3-4ad7-47c5-82d0-75c5b6b07f57")
+		(property "Reference" "#PWR05"
+			(at 195.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VCCIO8"
+			(at 195.072 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 195.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36ed34ae-e356-434f-8bf9-ce04683bab2f")
+		)
+		(instances
+			(project "FPGA4RISCV_BB"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6497,7 +6622,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "44a0e842-5177-4981-b166-114a8cd53248")
+			(uuid "3e68ad83-acdd-479d-a46d-593ecb12c807")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -6581,10 +6706,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "525ad283-24be-43a5-a3a7-7c29c34396cc")
+			(uuid "a5adf9bd-f48d-4ccc-b5e9-eee14ac28b42")
 		)
 		(pin "2"
-			(uuid "20887579-fceb-4fb2-b017-48e7fcc17dd0")
+			(uuid "1be1910e-a608-47e7-9383-80bce7b205f9")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -6649,7 +6774,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "20849042-b829-4019-b723-3e9375db2b35")
+			(uuid "e7910db8-1629-44c2-b894-ff4b27312d6d")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -6733,10 +6858,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c3ce07a7-81ac-4376-b891-94937d232420")
+			(uuid "25d2d618-a350-4796-a012-7cd0caee3595")
 		)
 		(pin "2"
-			(uuid "7d0621c4-377b-4ffd-aa84-edb345b78f68")
+			(uuid "ab2f0161-8275-4dd2-be6f-e805ded9057e")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -6801,7 +6926,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e71687ad-8271-49f2-b5a1-cc33c0eadc1f")
+			(uuid "eb9da6ae-fba3-4b7f-92db-81a35219596a")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -6898,10 +7023,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "285bb948-33fd-45ee-9c8f-a32b48561793")
+			(uuid "36241bd2-64e9-414e-92b6-c158a3f49bea")
 		)
 		(pin "2"
-			(uuid "6d8c084b-6bc0-4800-9137-be4865fc06c1")
+			(uuid "5e84a185-855e-416b-89b3-f92410635909")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -6966,7 +7091,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a23faaeb-a377-48ee-bf4d-d7fccc4e959a")
+			(uuid "8af0e39b-e296-498d-98f8-dea80bdfab7b")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -7031,7 +7156,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3787a883-f366-43f7-8143-68d837593cb7")
+			(uuid "39c5b5c1-bf0a-4c5c-b840-fbb9887d3dde")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -7096,7 +7221,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b2151b63-f90b-443c-a45d-7881e6552e8c")
+			(uuid "a032b2c8-6446-45cc-9be2-08a3b282020b")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -7161,7 +7286,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e7853a9-3bf8-4f82-8c61-a7a836d271d9")
+			(uuid "ae82eeb4-3e68-4254-a36e-6e5891af8d35")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -7174,7 +7299,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 199.39 99.06 0)
+		(at 199.39 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7182,7 +7307,7 @@
 		(dnp no)
 		(uuid "6150ca61-513e-44a6-aacf-b796d5136ec9")
 		(property "Reference" "R2"
-			(at 200.66 98.298 0)
+			(at 200.66 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7191,7 +7316,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 200.66 100.076 0)
+			(at 200.66 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7200,7 +7325,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 197.612 99.06 90)
+			(at 197.612 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7209,7 +7334,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 99.06 0)
+			(at 199.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7218,7 +7343,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 199.39 99.06 0)
+			(at 199.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7227,7 +7352,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 199.39 99.06 0)
+			(at 199.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,7 +7361,7 @@
 			)
 		)
 		(property "MPN" " 560112110087"
-			(at 199.39 99.06 0)
+			(at 199.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,10 +7370,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b757ce8-2dfb-4f41-9db3-491e67888ea8")
+			(uuid "b6ae5b8b-d029-4f89-ac67-6a5e529180f3")
 		)
 		(pin "2"
-			(uuid "666a87b0-cb69-4697-ac90-5ec89f7eb3ff")
+			(uuid "662f5b9e-692c-454e-a3a6-a5d049dbb1be")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -7332,10 +7457,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9abc497-ae67-4cb5-927e-781833641fa0")
+			(uuid "d5aaa871-da75-48b5-b376-b501e499171a")
 		)
 		(pin "2"
-			(uuid "eff56b99-8941-4246-9a34-e922784ac70d")
+			(uuid "2d1026cc-038a-4089-a49f-e07206d53ec9")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -7400,7 +7525,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9488051b-a733-47dd-9e69-e7d875130262")
+			(uuid "8f0dd083-d392-49e3-ab88-c07467db2214")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -7484,10 +7609,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d1408a4-4893-424c-98b4-a1f29942c3e8")
+			(uuid "158abc63-c9f1-4fa4-89bb-acb86d03b1ae")
 		)
 		(pin "2"
-			(uuid "2b2d9feb-a126-453b-bcc5-d9ba7213e3a2")
+			(uuid "cb15c35b-6161-4535-ae44-ee9ae9f73022")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -7507,7 +7632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79dd1e8e-a8d6-4a9b-b082-cb4132a404cc")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 78.74 120.904 0)
 			(effects
 				(font
@@ -7553,36 +7678,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "f87cbd7d-85e2-45b4-b67c-7c5bef344154")
+			(uuid "70d3af23-7603-4bce-bfc9-c0f02b18f097")
 		)
 		(pin "6"
-			(uuid "e46cb4a1-19fb-45c7-a0bb-d8ac3a59b022")
+			(uuid "bd845cff-369a-487c-a48d-3427a7ff1fe1")
 		)
 		(pin "7"
-			(uuid "7cecbdcc-a4bb-4088-a291-a8ecc972ac05")
+			(uuid "23c96f1a-f77c-43e5-ba9f-a22a4fe928fe")
 		)
 		(pin "8"
-			(uuid "1c5816fc-1833-4126-9bee-f89bb7901a0e")
+			(uuid "230fdd33-39c6-44f2-8c0a-6b98eefabb4e")
 		)
 		(pin "5"
-			(uuid "a29af57a-18a4-46d1-9a70-bc7d50e748d4")
+			(uuid "9d145f07-b731-4e91-bb22-8a95ba3aaecf")
 		)
 		(pin "2"
-			(uuid "61051daa-25fa-453a-bccd-a0b39a00f00f")
+			(uuid "6ff34817-f90e-4c8c-a350-5464dc53bc87")
 		)
 		(pin "3"
-			(uuid "48cf25d0-f069-412a-8648-479f0820f270")
+			(uuid "742e3ddb-7442-4664-9070-a6d480fa2679")
 		)
 		(pin "4"
-			(uuid "f6580d54-2f0c-43fa-a7a7-5d9d38a276e2")
-		)
-		(instances
-			(project ""
-				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
-					(reference "U1")
-					(unit 1)
-				)
-			)
+			(uuid "b0a6992c-f67f-44cd-9b62-015a6af9424d")
 		)
 	)
 	(symbol
@@ -7595,7 +7712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a8ace1d-37dc-4210-8b3a-3fb3760a813d")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 159.6741 52.07 0)
 			(effects
 				(font
@@ -7641,204 +7758,196 @@
 			)
 		)
 		(pin "21"
-			(uuid "b0563c61-d3f4-4e5f-9bba-7f3c6d225783")
+			(uuid "1d6c1071-4436-4600-8835-4fc09ad07a31")
 		)
 		(pin "2"
-			(uuid "6f2ec62b-1ad5-49e2-8ae8-611c8ce3edb3")
+			(uuid "aedd458e-0444-4eb2-9455-128304c23179")
 		)
 		(pin "26"
-			(uuid "3227b282-b2dd-4822-be8b-7977dac3f1e5")
+			(uuid "5f64d1eb-7089-4380-a5cc-8a84e26a9c27")
 		)
 		(pin "3"
-			(uuid "a638b822-abe5-461e-add4-eb7e78957e60")
+			(uuid "c39d5148-36ba-4882-a415-f0388e68b1a0")
 		)
 		(pin "1"
-			(uuid "d0824020-bdb2-413d-913e-aae9c4ea8e25")
+			(uuid "4ecfc1de-06fc-43f2-8bc5-9874f7f96de3")
 		)
 		(pin "33"
-			(uuid "efa7827c-8853-4c64-b7da-a8eaa8f1243a")
+			(uuid "26efa8bf-7358-4fc5-b220-2000e13192c8")
 		)
 		(pin "34"
-			(uuid "007498de-4e55-4b25-9048-49359f1ca558")
+			(uuid "aa58de4b-81e5-4211-802c-862d60e4f902")
 		)
 		(pin "35"
-			(uuid "551c6c1e-4cc8-41ae-be8a-17b70c83c156")
+			(uuid "1d0e48ed-a294-45b2-a144-cd7903b56d6f")
 		)
 		(pin "42"
-			(uuid "d36cc49e-734b-4450-8a1b-b43be9c1175d")
+			(uuid "769daf34-4374-4d02-8b1b-7c4882192105")
 		)
 		(pin "45"
-			(uuid "9e35c459-5f65-4812-914f-117a285353d6")
+			(uuid "5dd3a762-733c-42b1-ada5-e60cf6cf01a8")
 		)
 		(pin "47"
-			(uuid "b3167cb9-7f53-4f15-953b-27170356d73a")
+			(uuid "b427f4e5-3627-4c43-a91c-92f95ba02139")
 		)
 		(pin "49"
-			(uuid "ebb9a679-790c-4557-9100-e2d715ad8300")
+			(uuid "c7fe487e-ad0e-4ecc-90b9-e6e160ec5db0")
 		)
 		(pin "5"
-			(uuid "54d12afb-07d9-42d1-94d3-861e130e9379")
+			(uuid "e13ead8a-f905-4d6d-8251-6f78560eee97")
 		)
 		(pin "31"
-			(uuid "aef32dd1-db48-4483-93e9-3c8ff7a336db")
+			(uuid "b14db619-76b0-41df-8306-3bd471b3aeda")
 		)
 		(pin "50"
-			(uuid "8ead027e-e6b0-4d75-b96e-62bacb605bc0")
+			(uuid "5b795476-c374-40ca-b10e-e5ad36766a09")
 		)
 		(pin "55"
-			(uuid "b44033a5-0759-4fcb-b94e-3b5a417e4bd7")
+			(uuid "f17cbfa8-17d7-4e6f-8588-1930c8e3c47a")
 		)
 		(pin "56"
-			(uuid "120d4ea1-0cde-4cb0-acef-162f202f8f10")
+			(uuid "39dba0db-8a58-42bd-b53b-ad28c9b63796")
 		)
 		(pin "58"
-			(uuid "50ee56eb-b7c0-4139-88c3-dcf73ecd1cb9")
+			(uuid "3ca8e15e-e00f-4482-89fb-f6b3db9b1435")
 		)
 		(pin "22"
-			(uuid "714ea263-0f64-42fa-a473-1203d792092f")
+			(uuid "febcf674-c930-4648-8ebe-91cf67287c37")
 		)
 		(pin "36"
-			(uuid "5ea11958-b78b-46e2-8153-8835f2b151eb")
+			(uuid "2187f57e-ccc6-4abd-a048-38d142dc972e")
 		)
 		(pin "10"
-			(uuid "33c89ffa-6a46-47f0-92c3-73f0c43717e3")
+			(uuid "4337d530-ff06-4e1a-93c4-4b4f4daee666")
 		)
 		(pin "25"
-			(uuid "cbee9614-517d-4948-a0b4-aaed08312e2b")
+			(uuid "8ef80cae-191a-4eb8-a853-4778ee46a742")
 		)
 		(pin "44"
-			(uuid "acc75774-9ffb-409d-8b52-036df5f3896a")
+			(uuid "66b1e160-b245-49b6-8789-ef03e08a5429")
 		)
 		(pin "46"
-			(uuid "5b674d00-141d-41b6-bb85-602610802be6")
+			(uuid "295b83f0-3503-4446-9bf5-d26d7f3aab85")
 		)
 		(pin "48"
-			(uuid "4301ed56-f70d-48be-ba6f-f1d6769ac2f2")
+			(uuid "ada76ce5-933c-4724-82dc-1acdbe1487ab")
 		)
 		(pin "52"
-			(uuid "1f8a0787-6a10-4290-9654-540f01df088b")
+			(uuid "53dfd135-8c41-49a3-98b2-cd1ebf5801f1")
 		)
 		(pin "51"
-			(uuid "0c15f32e-19a6-4e27-9fa4-8a66cb3f6d07")
+			(uuid "67c377f3-63a6-491a-88ea-f4e07769e4d0")
 		)
 		(pin "37"
-			(uuid "54fdf366-a7aa-445a-9c51-968e37e7e5df")
+			(uuid "5f957071-b90a-427b-a604-049ab2081512")
 		)
 		(pin "53"
-			(uuid "31717cad-1614-4720-858e-05f87d9975f3")
+			(uuid "877a2038-d579-4924-9dda-390567d1cdfc")
 		)
 		(pin "54"
-			(uuid "d2009b2e-4537-4419-b1ff-c255e5ce575b")
+			(uuid "3b04318b-46db-4bea-b69c-e1f542b3eb12")
 		)
 		(pin "41"
-			(uuid "1ab1ff15-7be3-44ca-bbfa-33d08b97aec1")
+			(uuid "34285b21-c52b-476d-8cf1-77c52cd626ff")
 		)
 		(pin "43"
-			(uuid "dde66910-6fb4-44fa-bc18-f812832fe5e4")
+			(uuid "0c8a711f-5644-4804-8310-fea8a1a366a5")
 		)
 		(pin "57"
-			(uuid "b611239d-ec0a-46ce-9c31-93682981bc26")
+			(uuid "d98795a6-6c90-4869-a042-e15a720d1b26")
 		)
 		(pin "12"
-			(uuid "c68d7a6c-a99f-48a8-981a-763a360c1145")
+			(uuid "57faf390-18b1-4ae6-827d-0a1f5dc14fd2")
 		)
 		(pin "40"
-			(uuid "fe4769d7-27c4-4357-87e0-c2d9c832afa7")
+			(uuid "7a7709c6-453c-43f3-9748-38cd569ecc9b")
 		)
 		(pin "59"
-			(uuid "e5a223e6-7dd9-4ddb-86d8-20b1ae90fe69")
+			(uuid "ff06ac66-38ba-487e-a9be-8e9f240b1910")
 		)
 		(pin "6"
-			(uuid "bf3bcbae-46f5-419b-a71c-cda07d9f5b83")
+			(uuid "29758c65-8c6e-45cc-954a-5c12471e6694")
 		)
 		(pin "60"
-			(uuid "64aadc22-4d85-4050-adda-f465652eef61")
+			(uuid "24dd8f81-fd8c-4c58-8291-47eed08ed737")
 		)
 		(pin "61"
-			(uuid "d3cfe55a-1812-4f8a-ae51-c0e7eaca664f")
+			(uuid "fca8336c-0272-4944-b94d-f7a0b9b6bfdd")
 		)
 		(pin "63"
-			(uuid "e4ccce90-2b85-4db8-b023-9cf2594e2b80")
+			(uuid "bfab672d-a0a8-4d3a-a8b0-ac66e5543556")
 		)
 		(pin "62"
-			(uuid "33c2344c-d331-4bfe-9126-683de852395e")
+			(uuid "3e5fa7fc-56cf-4730-baed-9148f1a37a1f")
 		)
 		(pin "64"
-			(uuid "67a0273a-3b43-4423-be9d-00a72c4a9cdd")
+			(uuid "435057de-62a2-43bf-9eac-86377a2ae7cd")
 		)
 		(pin "17"
-			(uuid "fb8f7d02-8ec5-4132-a48a-930cc611b033")
+			(uuid "26f0c7f6-031a-4457-a76e-d0338c9369a6")
 		)
 		(pin "7"
-			(uuid "2591aca5-3d26-4e6a-8930-77d16bdcb2ce")
+			(uuid "3c1ba51c-ca3f-49f4-af2c-ced5b44656eb")
 		)
 		(pin "38"
-			(uuid "e2850eca-aedf-4434-8f3e-ed1cd2e892b6")
+			(uuid "961ae7db-b11a-4e58-af00-5aedfb2ca6ee")
 		)
 		(pin "13"
-			(uuid "497376d7-89ec-42dc-843c-7266f6b1c903")
+			(uuid "93dd8e5e-75be-485b-86e3-11096e8b9dd5")
 		)
 		(pin "27"
-			(uuid "7f922d77-2d9d-43b0-91d0-9a24f5570c97")
+			(uuid "a03b27d2-ae23-408f-9a0b-1e67b8bd62d7")
 		)
 		(pin "29"
-			(uuid "a85fad8a-a4ba-4a5e-944a-e2077b1511c3")
+			(uuid "88fe7d4b-180e-4edb-a6fa-34a3c30c4c46")
 		)
 		(pin "24"
-			(uuid "6cca4b77-7b18-434a-9548-a24582a8c674")
+			(uuid "a5012b8d-fc33-41e9-94ef-addbcc1f58d3")
 		)
 		(pin "11"
-			(uuid "b68adcac-a93d-4c34-8523-a9cb0c70511e")
+			(uuid "dddff9c0-ac72-4191-a806-e2c6216d5dc7")
 		)
 		(pin "30"
-			(uuid "7c6d61a6-64bd-464f-9eaa-b266fd455206")
+			(uuid "8d168c13-8279-4855-9095-e660aa1241a9")
 		)
 		(pin "39"
-			(uuid "e35a1151-d740-47c3-9c6a-db459bf20069")
+			(uuid "eec04328-fa78-41aa-8948-0f07fa04218d")
 		)
 		(pin "4"
-			(uuid "1e42f30a-ae4e-40d5-9caf-f583bdd3b373")
+			(uuid "30acfe96-a378-40e6-906e-e15278911679")
 		)
 		(pin "23"
-			(uuid "fb866847-aa97-4c17-b432-56a1497451d5")
+			(uuid "eafafbc3-0f5c-4f6b-80ba-e09f963190f1")
 		)
 		(pin "8"
-			(uuid "5c585af4-bece-40a3-a26a-69e924fc79d6")
+			(uuid "763941b8-5903-4243-986c-f391386c9757")
 		)
 		(pin "15"
-			(uuid "e5c6a9ff-7cc8-4676-bff5-ca21136da72f")
+			(uuid "1943b9a4-90cc-4c58-87bb-cb3500122b2b")
 		)
 		(pin "19"
-			(uuid "d9871b13-e8bf-495a-b037-3be8fcce0368")
+			(uuid "79ad4488-bb67-44e2-ba72-12f7da44f439")
 		)
 		(pin "28"
-			(uuid "dbad097d-f48d-426e-b544-afb26303df21")
+			(uuid "f47aca40-3d8b-4493-9349-7f483b7d9b65")
 		)
 		(pin "16"
-			(uuid "312bd229-c0b5-416a-a8e1-a03cb5328e01")
+			(uuid "62fc3b82-1db0-478a-bddd-ab07616b3523")
 		)
 		(pin "32"
-			(uuid "02a55d99-d8d3-472a-8122-102ef99fb408")
+			(uuid "567d2b42-164f-4c73-9d19-3a04206f3048")
 		)
 		(pin "18"
-			(uuid "41e9a857-7dad-49eb-8e82-3daf64258f14")
+			(uuid "1955d2c4-7962-49fd-a838-3cebeaf4b578")
 		)
 		(pin "20"
-			(uuid "ac107e33-d8ef-4ac6-82e5-5a92753851cc")
+			(uuid "1b5b5221-098d-40ec-8995-30f4056172d0")
 		)
 		(pin "14"
-			(uuid "30e96c30-21c9-436d-98f3-045968c8ef93")
+			(uuid "8e86f9bb-c980-4f6b-a552-5eb21118349b")
 		)
 		(pin "9"
-			(uuid "a1590a6b-2d48-4a94-a5f9-a6ea046661d4")
-		)
-		(instances
-			(project ""
-				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
-					(reference "U3")
-					(unit 1)
-				)
-			)
+			(uuid "a3c27b16-13e0-4057-8d36-4f04e627b25c")
 		)
 	)
 	(symbol
@@ -7914,10 +8023,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "02790d0b-565d-418e-9798-18028096bfde")
+			(uuid "53169c40-43a6-4c5b-9b06-d0edc4cfdb7d")
 		)
 		(pin "2"
-			(uuid "1d87fbef-e2a3-4a63-a12a-d1b29084019e")
+			(uuid "5867a806-b5ec-41cc-b533-c4b70ef95cfb")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -8014,10 +8123,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8747e14a-fdf3-4869-9863-6c318eb366d8")
+			(uuid "953c020d-bbf2-4b15-bfa4-667ab6d10d0e")
 		)
 		(pin "2"
-			(uuid "19fbb022-f0c7-4a5e-9cbd-c2d031cabef3")
+			(uuid "562e0b91-9598-492b-aed4-51eb1e4d5ab3")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -8101,10 +8210,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8e124df-f6df-454c-bd5c-aa5fa125855b")
+			(uuid "f3bb5909-fba9-462b-942c-871ae0a1f19d")
 		)
 		(pin "2"
-			(uuid "3dcc7526-8091-4541-b7b8-ba00650c833e")
+			(uuid "cbb5e2ba-97ff-406c-a376-584034e55eb7")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -8188,10 +8297,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0cd2a99d-f27b-4910-b030-03f6e35b6bdf")
+			(uuid "e21e95fa-9a3d-4c89-a062-69177d458b0c")
 		)
 		(pin "2"
-			(uuid "89a5d88d-4df1-4c72-81f8-3e990196635f")
+			(uuid "98128e6a-c663-4233-9612-44c6b8d69770")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -8204,7 +8313,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 214.63 85.09 0)
+		(at 218.44 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8212,7 +8321,7 @@
 		(dnp no)
 		(uuid "8880560e-5ac7-4480-98f8-6ffa194115b9")
 		(property "Reference" "#PWR020"
-			(at 214.63 88.9 0)
+			(at 218.44 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8221,7 +8330,7 @@
 			)
 		)
 		(property "Value" "+VCCIO8"
-			(at 214.122 81.026 0)
+			(at 217.932 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8229,7 +8338,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 85.09 0)
+			(at 218.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,7 +8347,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 85.09 0)
+			(at 218.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8247,7 +8356,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 214.63 85.09 0)
+			(at 218.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8256,7 +8365,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3638569-b432-402e-b727-77b5a9387b4e")
+			(uuid "d55b773a-cce0-4dca-b6c5-d176d9103844")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -8353,10 +8462,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "228abe80-d517-49c1-a827-9f6f868b9930")
+			(uuid "19a2f1da-c2bb-46e7-b090-69a2439de3ef")
 		)
 		(pin "2"
-			(uuid "0f241f07-6f01-4328-b37e-2eb4df2f3027")
+			(uuid "2af86b18-dfaf-4118-8c39-d03f48b51418")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -8421,7 +8530,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b67c5920-9e9e-41cd-8c8e-00a1d74c7d37")
+			(uuid "d8c2cc7d-65ac-4f78-9bd0-22e659796b3b")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -8441,7 +8550,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92806770-e6f0-4444-8232-385624d6db8a")
-		(property "Reference" "L1"
+		(property "Reference" "L5"
 			(at 86.36 21.844 90)
 			(effects
 				(font
@@ -8503,18 +8612,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e70690b7-6f5b-42e7-8256-d65639e4e66b")
+			(uuid "7bb72176-c82d-4f37-a680-0f99ec7fd3f3")
 		)
 		(pin "1"
-			(uuid "c5f2c642-a958-434e-921f-b2a88c205343")
-		)
-		(instances
-			(project ""
-				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
-					(reference "L1")
-					(unit 1)
-				)
-			)
+			(uuid "ed4a65b2-cfb1-4d66-ba08-e46b2ebb2548")
 		)
 	)
 	(symbol
@@ -8571,7 +8672,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c4bb108d-ea8f-4e0c-b78a-98ff33fe82e9")
+			(uuid "3eea29f7-22a4-4856-94a0-f0434d89a5f0")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -8668,10 +8769,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "806d0f2b-1727-4048-a36b-932cbbd719e3")
+			(uuid "f2473ff2-18dd-4903-b9cc-80c3077887f4")
 		)
 		(pin "2"
-			(uuid "60cb450d-95f6-4772-a2a0-89e68efdcff3")
+			(uuid "17227b82-9c75-4104-b78f-772712b412b3")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -8753,16 +8854,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "b19cbf21-26bb-490f-938a-f757d1de7533")
+			(uuid "a6d91911-dd5b-41cf-a8f6-072c92a0b532")
 		)
 		(pin "4"
-			(uuid "238364c1-aa5a-4bfa-a073-8d85baa2d521")
+			(uuid "b2e34848-8c00-4046-8b86-5eb37a26dcf9")
 		)
 		(pin "3"
-			(uuid "4f3075b9-284c-4152-9dcc-de6b581bb58f")
+			(uuid "8d1f112d-2543-4e53-a10e-f7b9c64a0621")
 		)
 		(pin "1"
-			(uuid "941273f4-7c8d-4b42-9c01-79976503e9a5")
+			(uuid "38af942e-ebbc-4db7-ad5a-be2ea9beacd2")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -8859,10 +8960,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8201a82-4616-4d4a-87ca-451e9452ca6d")
+			(uuid "a0011cf5-a51b-413c-aff0-5f9b6dfc573e")
 		)
 		(pin "2"
-			(uuid "32202c48-3287-4c47-b2d0-7db14d247be8")
+			(uuid "a532b745-9d23-4434-9583-cd82606ee289")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -8946,10 +9047,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "583e3ad6-f25c-4b04-9108-008aa162a77b")
+			(uuid "f5ab092a-f8c9-4c92-9ca8-1ad72a19fa2b")
 		)
 		(pin "2"
-			(uuid "91e9e335-c7e3-4f84-8b84-e6f641e75e1e")
+			(uuid "0505d0fc-87ba-4894-9c90-7f2d23267f03")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -9033,10 +9134,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8cbfb6d3-a299-437d-9f52-6c0904ee85d3")
+			(uuid "1f2aa280-26f1-4899-b65c-84abf27c2223")
 		)
 		(pin "2"
-			(uuid "953f4307-9af6-4933-8639-217584047ec0")
+			(uuid "92b94f62-c373-4176-8493-1e24641f0ae9")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -9133,10 +9234,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d6e300c-b32a-40e5-857b-0cc1bad59571")
+			(uuid "02101bc1-7f59-4f00-87e0-acc9ffc424fd")
 		)
 		(pin "2"
-			(uuid "7c987699-6bd3-4d68-94b8-cbb8951d36d7")
+			(uuid "fa682739-9be9-42c2-85b9-9ae6c56de458")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -9149,7 +9250,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 191.77 99.06 0)
+		(at 191.77 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9157,7 +9258,7 @@
 		(dnp no)
 		(uuid "b729bc66-8e5b-40ab-b1b6-d8d08784b528")
 		(property "Reference" "R13"
-			(at 193.04 98.298 0)
+			(at 193.04 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9166,7 +9267,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 193.04 100.076 0)
+			(at 193.04 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9175,7 +9276,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 189.992 99.06 90)
+			(at 189.992 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9184,7 +9285,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 99.06 0)
+			(at 191.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,7 +9294,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 191.77 99.06 0)
+			(at 191.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +9303,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 191.77 99.06 0)
+			(at 191.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9211,7 +9312,7 @@
 			)
 		)
 		(property "MPN" "560112110087"
-			(at 191.77 99.06 0)
+			(at 191.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9220,10 +9321,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2a19ec1-f9f1-4065-a5c2-24cdc34a5802")
+			(uuid "5563fe4e-5561-4805-af1a-805f476e3bc2")
 		)
 		(pin "2"
-			(uuid "2602eefd-9b30-46d4-8bdd-a257e23ddab2")
+			(uuid "0f6a0b29-b3f0-43ef-87ee-223466b49af0")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -9307,10 +9408,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a36a0ada-182d-45a2-8cb0-2bc6ca70433d")
+			(uuid "c00ef4ea-124f-4817-9e39-b3a27523d1cb")
 		)
 		(pin "2"
-			(uuid "634f21cd-6b80-413c-a3f7-8a61c548f1dc")
+			(uuid "1f1458a1-5426-4057-b8d8-31f610b9b617")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -9394,10 +9495,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9006136b-cb75-4c4f-a695-e28db1a8d7fa")
+			(uuid "3789c92b-917a-43df-a880-a84a80d82e40")
 		)
 		(pin "2"
-			(uuid "f148b5b5-1818-4c5a-a634-b49e2205cdce")
+			(uuid "d32df249-7f54-4f3c-a58b-66ff4af8c73f")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -9494,10 +9595,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b85f0fe9-a279-4f93-a8a5-53a8e53a8d0f")
+			(uuid "ddb1b29a-1712-45bf-b24f-1050bfe7f478")
 		)
 		(pin "2"
-			(uuid "45545943-d9d7-4d55-ac89-ec1307cec566")
+			(uuid "486375ce-b615-4069-afca-252a589f234f")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -9581,10 +9682,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "65cd2dcf-f7ce-43aa-81c6-c30ba52a1eff")
+			(uuid "9445c69e-85f2-46a6-8d06-e8c818ee0ecb")
 		)
 		(pin "2"
-			(uuid "c44d09aa-4e2e-4188-acc2-b658f348490b")
+			(uuid "f45e83ea-b371-4db0-9a20-fdd385b35bcb")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -9667,55 +9768,55 @@
 			)
 		)
 		(pin "A1"
-			(uuid "6ddce6d0-9c7f-4af5-8184-0305080cf74c")
+			(uuid "d98331c4-6bf2-4efa-96c8-6cd4891dd0a1")
 		)
 		(pin "B9"
-			(uuid "75796159-5d11-4bd4-9846-b68d931e0c0f")
+			(uuid "2777d2a2-c502-48ac-badf-e2c95e50cf7a")
 		)
 		(pin "B1"
-			(uuid "cdfbb96b-4647-40d6-8dba-8c862f8c1156")
+			(uuid "df1f35e0-ee6c-4d97-8b6f-2843ca3176bc")
 		)
 		(pin "A9"
-			(uuid "cdb3ea33-a5b0-4165-9d41-9f231a64cc80")
+			(uuid "76007a8e-5443-428a-a1b8-ef81fa5d9c05")
 		)
 		(pin "B4"
-			(uuid "e73ff2e3-6fdf-4aa2-b4b5-9845d21dba2e")
+			(uuid "fb9137fc-165f-4a85-af90-f0fef65b2ea2")
 		)
 		(pin "A7"
-			(uuid "833753e7-834c-4944-9643-df21c1b191d1")
+			(uuid "cb30ce35-857d-44e4-a28f-0a2475c17609")
 		)
 		(pin "B7"
-			(uuid "a299e0ca-9b07-4b09-8e2d-d59a17ed9f89")
+			(uuid "efdacbb6-5b69-4c72-bdb5-c17cff8fdea0")
 		)
 		(pin "B8"
-			(uuid "dd14e655-3546-4260-8ecb-4fbb0fd4cc89")
+			(uuid "21a10a68-b8b0-4be5-af11-49f49ddc06e1")
 		)
 		(pin "B5"
-			(uuid "c7a3c9be-a60f-41aa-b5d4-be202e62abd2")
+			(uuid "0992f500-a3f5-4c26-bb53-2d7b78ded8f9")
 		)
 		(pin "A6"
-			(uuid "02f28434-16c8-4715-bb8e-15da82953e40")
+			(uuid "e2d90239-7121-4e26-a146-c41a78fe212a")
 		)
 		(pin "S1"
-			(uuid "ecaadf06-8160-4b5c-b90f-d30bf7f65b4a")
+			(uuid "15e721c6-cba8-475c-be68-a22c7837a015")
 		)
 		(pin "A8"
-			(uuid "989347e4-500b-44de-8fe4-5325cc7b2360")
+			(uuid "468926ad-e50c-4b46-a436-833278896594")
 		)
 		(pin "A12"
-			(uuid "823649ba-fb6f-4d14-a3ff-c835bd35ea25")
+			(uuid "b0e87810-96b7-4a4f-80d7-15deeca2872c")
 		)
 		(pin "A4"
-			(uuid "7e0ea9ab-f8f1-46e9-809d-3580e3e99679")
+			(uuid "e3129d9b-2c8b-482e-8934-bd7639831813")
 		)
 		(pin "B12"
-			(uuid "6dfd21e6-e676-4b35-8004-6b2f59a5c8ef")
+			(uuid "6df1bff3-f590-4f36-a29d-122e98dad231")
 		)
 		(pin "B6"
-			(uuid "da672f48-6e4f-4bb4-bca6-96c333dead92")
+			(uuid "33854223-328d-4379-b6b4-53bf14fda2c4")
 		)
 		(pin "A5"
-			(uuid "00a75b11-b298-4c36-8d2b-be8b24eab8e3")
+			(uuid "61c0528b-9a72-4056-a112-b24a9d735a5b")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -9780,7 +9881,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "172144e8-c35c-418e-9337-a07f3c473371")
+			(uuid "11c4cdc2-b119-4851-b3f8-8eaa019a4023")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -9877,10 +9978,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f726b117-9c07-49d9-ad13-eff6712af40c")
+			(uuid "b44c9ab4-a212-40ec-97ef-cd8fcf8e9efc")
 		)
 		(pin "2"
-			(uuid "0cf51341-9924-4721-89e6-7d4d34278962")
+			(uuid "ae285a33-2a91-41c2-bc9b-43f707c3ebad")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -9977,10 +10078,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e37b81f8-0223-403e-9a0c-ce03ad9748a3")
+			(uuid "65515c23-26c1-4e8f-8f22-5fc65bb491d4")
 		)
 		(pin "2"
-			(uuid "83e96843-06ea-41b8-ada9-390b34a38a97")
+			(uuid "dc2f6673-d65a-40a2-8a44-f172569f9c19")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -10064,10 +10165,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d634279-7b8b-4b38-a703-e4b38e1eba81")
+			(uuid "b76b61de-c3c0-4fdc-b9eb-4dfe2317b588")
 		)
 		(pin "2"
-			(uuid "acc4a37d-cc1e-43cc-880c-9444ad2f9c30")
+			(uuid "5fc667e4-a404-4404-a066-5af2fc95eae1")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -10132,7 +10233,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f44fa02a-25c1-4f62-99dc-95648ae32546")
+			(uuid "e32f8d00-97c8-4b99-9ebd-ced929fd0404")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -10216,10 +10317,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c77bdc7-ebf1-4572-9a1a-af7d05cb36da")
+			(uuid "fa972861-c4ff-41f5-84ac-a43308015819")
 		)
 		(pin "2"
-			(uuid "8d3af321-3c17-485d-90ac-7affb0014913")
+			(uuid "f2869d86-cc36-4400-ba8b-b8c14a15f247")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -10284,7 +10385,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e92b8f0-ef06-49bd-9b44-5353236f1f4e")
+			(uuid "4fd01c18-7d77-477f-a4a3-0fa2c376a43e")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -10367,10 +10468,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "81c17a99-4b9e-41b3-8b42-62fbd1233b05")
+			(uuid "1bff40dc-d871-4d65-9f2e-1ba90c9ff536")
 		)
 		(pin "1"
-			(uuid "cdc025ea-b0d2-4e29-be9a-7184bbcae5d8")
+			(uuid "dd66d961-3568-4380-a65c-66fd5854d608")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -10467,10 +10568,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "39214e91-5003-4a09-90f6-d9f695e6bfb1")
+			(uuid "8ec3cced-40d7-4cfd-a2ce-17a818341dbc")
 		)
 		(pin "2"
-			(uuid "aca970f1-ae3e-49e4-8819-f3e530ab1c98")
+			(uuid "4339b77b-cbeb-448f-a872-e9935f0ac002")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -10567,10 +10668,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee202940-561a-4412-a09c-cf94ca45a74d")
+			(uuid "cdd2df77-67dc-4f51-8a58-2b44cd08b47c")
 		)
 		(pin "2"
-			(uuid "8a618979-e0e8-44e5-8da5-76a6b1c89272")
+			(uuid "598b184c-1478-4bee-ba39-5452f7bafd5a")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -10667,10 +10768,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6eaf3112-31d2-46ec-8269-23422304842b")
+			(uuid "b8ae7de7-542b-417d-a1c8-7afc19b54a98")
 		)
 		(pin "2"
-			(uuid "c983cee7-89cb-467c-91ae-7a136e1c43b9")
+			(uuid "187d809e-7077-4a8a-9458-ce0ec6c22ba9")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -10754,10 +10855,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d102b153-7bb0-460f-9b32-61404fa192fd")
+			(uuid "36bdb207-697c-4ec0-bfb0-c23113860285")
 		)
 		(pin "2"
-			(uuid "74e3fd54-fe7c-4238-af55-73852009c105")
+			(uuid "d6c12e82-994e-421c-8a85-e8bfc7124271")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -10777,7 +10878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5049bc3-252f-4baf-9605-40dd4752f614")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR034"
 			(at 129.54 177.8 0)
 			(effects
 				(font
@@ -10822,12 +10923,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ce0816d-bf4d-4b8a-b1f2-0a9546936841")
+			(uuid "a8a94c1f-15a7-46f1-b66d-450077275c10")
 		)
 		(instances
 			(project ""
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
-					(reference "#PWR05")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10906,10 +11007,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "63962914-f641-45c9-80d4-e3e61eea4d95")
+			(uuid "853710d0-6e9f-4fc8-8051-7dcbd8d5bd87")
 		)
 		(pin "2"
-			(uuid "def8f72c-94d6-4016-8e79-6fd7f249c40c")
+			(uuid "80a7233a-1bd5-4cdf-af7e-78ad31dfb408")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -10974,7 +11075,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1570886-ae2c-47d1-85b6-772723421198")
+			(uuid "5a4d2bdc-5555-4088-89f9-e9bf9e9c7521")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -11071,10 +11172,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "67bdd65b-d44a-4b0c-96d8-f9cf14550a6c")
+			(uuid "b698aacd-d738-4b3f-8eea-d7a80dd8c0fa")
 		)
 		(pin "2"
-			(uuid "5b96dc43-5222-4180-aec9-c50d7c9b54de")
+			(uuid "265bb504-5789-49b1-bb26-d8da8b799cfc")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -11139,7 +11240,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "62ea39a5-e7b1-4ccd-92c6-82caae4ccf78")
+			(uuid "c8d54e68-480e-40fb-aab9-93619ddd3854")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -11204,7 +11305,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8400b032-2209-43de-ae2e-bf767282ada9")
+			(uuid "ab461c02-c561-4911-9309-396d3366ed98")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"

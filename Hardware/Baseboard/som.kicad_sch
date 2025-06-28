@@ -3758,6 +3758,182 @@
 			(embedded_fonts no)
 		)
 	)
+	(global_label "JTAG_TCK"
+		(shape input)
+		(at 229.87 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34e9c242-e02f-4081-814f-8af7fede107e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.6242 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FT_SDA"
+		(shape input)
+		(at 229.87 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68703211-3e9f-4afa-9df0-2c0798ee7893")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.4471 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FT_UART_RxD"
+		(shape input)
+		(at 229.87 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70390113-0daa-4644-b329-e613b37fe09d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.0714 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TDO"
+		(shape input)
+		(at 229.87 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e7fbeb8-62da-42b2-9495-9dd68ecc8837")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.6847 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FT_UART_TxD"
+		(shape input)
+		(at 229.87 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d782cd2b-bd9c-4ff3-a3c3-1277bd47f1e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.769 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TDI"
+		(shape input)
+		(at 229.87 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbc5e361-ceb2-4fd1-8dcf-334d64f0d7d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.959 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TMS"
+		(shape input)
+		(at 229.87 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4363071-9a2c-42c8-aa7e-140e5d0c9cf0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.7451 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FT_SCL"
+		(shape input)
+		(at 229.87 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebeffa1c-d568-49dc-8454-97ce16455e2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.3866 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "FPGA4RISCV:1473005-4")
 		(at 134.62 64.77 0)

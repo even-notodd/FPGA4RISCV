@@ -1812,7 +1812,7 @@
 			)
 		)
 		(property ki_fp_filters "*SODIMM*")
-		(path "/5afb2ac4-dadb-4f86-a03f-bc72f6fc34d4/f0f41b3e-4ce8-46e5-a98c-5b8a7a2efe58")
+		(path "/5afb2ac4-dadb-4f86-a03f-bc72f6fc34d4/fe4a056b-0852-4c16-acb0-d0e4ec50e50c")
 		(sheetname "/SOM Connector/")
 		(sheetfile "Connector.kicad_sch")
 		(attr exclude_from_pos_files dnp allow_soldermask_bridges)
