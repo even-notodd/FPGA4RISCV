@@ -2858,6 +2858,34 @@
 		)
 		(uuid "78085f2d-1b99-4a6c-8e83-1863eccb5b2f")
 	)
+	(text "ZQ CALIBRATION RESISTOR"
+		(exclude_from_sim no)
+		(at 141.478 122.936 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 132 0 1)
+			)
+		)
+		(uuid "8462fbcd-2dc9-4e6e-b99a-13a02ef0a142")
+	)
+	(text "(DS REV .1.1. Page 52)"
+		(exclude_from_sim no)
+		(at 141.478 125.222 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 132 0 1)
+			)
+		)
+		(uuid "fff1079f-6abb-44d7-b344-db5b764add4a")
+	)
 	(junction
 		(at 182.88 40.64)
 		(diameter 0)
@@ -3354,6 +3382,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 129.54) (xy 137.16 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4793d3b3-f6bc-47bf-acd4-2e40fc7e44d9")
+	)
+	(wire
+		(pts
 			(xy 182.88 40.64) (xy 182.88 41.91)
 		)
 		(stroke
@@ -3494,7 +3532,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 107.95) (xy 95.25 107.95)
+			(xy 87.63 107.95) (xy 92.71 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3571,6 +3609,16 @@
 			(type default)
 		)
 		(uuid "7ddb80f5-a5ff-4f6e-b793-ef55deb93a81")
+	)
+	(wire
+		(pts
+			(xy 151.13 129.54) (xy 144.78 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886598ff-15ee-443d-bfd3-c7c5ee43954d")
 	)
 	(wire
 		(pts
@@ -3761,6 +3809,16 @@
 			(type default)
 		)
 		(uuid "abbcde41-e24a-45c0-b1a2-5be59a34348b")
+	)
+	(wire
+		(pts
+			(xy 151.13 130.81) (xy 151.13 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1300f6-10cb-46fd-a7b7-f37bf8202793")
 	)
 	(wire
 		(pts
@@ -5738,6 +5796,26 @@
 			"ooooAKKKKACiiigAooooAKKKKACiiigD/9k="
 		)
 	)
+	(label "ZQ"
+		(at 130.81 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5880e565-91f2-48ab-9258-655c553dff20")
+	)
+	(label "ZQ"
+		(at 88.9 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "679f1e61-7502-4351-8992-ee02b6ef342a")
+	)
 	(label "DDR_NCK"
 		(at 146.05 115.57 0)
 		(effects
@@ -5820,28 +5898,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DDR_ZQ"
-		(shape input)
-		(at 95.25 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "07134473-f649-43c7-b216-5ba088636950")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.5528 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7282,6 +7338,71 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
+		(at 151.13 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20ca2242-a2a8-4953-aeac-f1463e0d0b61")
+		(property "Reference" "#PWR034"
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 151.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "259fff7d-6fd6-4a80-be60-6de18971095f")
+		)
+		(instances
+			(project "LFE5UM5G-85F_SOM"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70285655-daa5-4a1b-b29b-80c93a345d65"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
 		(at 67.31 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7526,6 +7647,93 @@
 			(project "LFE5UM5G-85F_SOM"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70285655-daa5-4a1b-b29b-80c93a345d65"
 					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 140.97 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43eeb578-03de-465c-8e19-315dcaf44f85")
+		(property "Reference" "R8"
+			(at 142.24 127.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "240R"
+			(at 143.51 131.826 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 140.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110009"
+			(at 140.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a1ae9c5-7257-4508-af84-6bf0c39fbed9")
+		)
+		(pin "2"
+			(uuid "563decae-7bc7-402e-96cf-c4e010503a04")
+		)
+		(instances
+			(project "LFE5UM5G-85F_SOM"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70285655-daa5-4a1b-b29b-80c93a345d65"
+					(reference "R8")
 					(unit 1)
 				)
 			)

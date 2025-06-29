@@ -8431,16 +8431,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 93.98) (xy 134.62 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "034ada61-031e-4955-9100-7819801d73f7")
-	)
-	(wire
-		(pts
 			(xy 387.35 49.53) (xy 389.89 49.53)
 		)
 		(stroke
@@ -8461,7 +8451,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 91.44) (xy 134.62 91.44)
+			(xy 130.81 91.44) (xy 134.62 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8538,6 +8528,16 @@
 			(type default)
 		)
 		(uuid "10ca4f6f-c513-4faa-8d99-4f0e6a4607de")
+	)
+	(wire
+		(pts
+			(xy 158.75 78.74) (xy 180.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1130f5e9-2984-41a7-9599-0f5e7823a7ea")
 	)
 	(wire
 		(pts
@@ -8801,6 +8801,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 116.84) (xy 134.62 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f019a6a-a190-421d-a73f-a09c0a78bc23")
+	)
+	(wire
+		(pts
 			(xy 55.88 163.83) (xy 63.5 163.83)
 		)
 		(stroke
@@ -8881,16 +8891,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 60.96) (xy 87.63 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bf2b82e-0c30-4a00-b3aa-b59a892946dc")
-	)
-	(wire
-		(pts
 			(xy 86.36 163.83) (xy 93.98 163.83)
 		)
 		(stroke
@@ -8951,7 +8951,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 88.9) (xy 134.62 88.9)
+			(xy 130.81 88.9) (xy 134.62 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9771,6 +9771,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 93.98) (xy 134.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4070f18-954e-499b-ae07-946ff0235d60")
+	)
+	(wire
+		(pts
 			(xy 129.54 111.76) (xy 134.62 111.76)
 		)
 		(stroke
@@ -9839,6 +9849,18 @@
 		)
 		(uuid "2f3015b8-bded-4872-9dbd-2bcad03228ac")
 	)
+	(label "IOBANK_VREF"
+		(at 111.76 93.98 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d116edef-df9d-417f-8531-04a90994e658")
+	)
 	(label "DDR_CKE"
 		(at 128.27 63.5 0)
 		(effects
@@ -9848,6 +9870,18 @@
 			(justify left bottom)
 		)
 		(uuid "e7a3b6ca-c1dd-4c0a-a281-a256284f5cc9")
+	)
+	(label "IOBANK_VREF"
+		(at 158.75 78.74 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f37e78e6-df1c-44ff-ad27-49bea5a90e7d")
 	)
 	(global_label "DDR_A14"
 		(shape input)
@@ -9873,17 +9907,18 @@
 	)
 	(global_label "DDR_DQ10"
 		(shape input)
-		(at 129.54 93.98 180)
+		(at 129.54 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.1588)
 			)
 			(justify right)
 		)
 		(uuid "0442873f-ff80-412c-9415-264ee6eb1d35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.7577 93.98 0)
+			(at 116.7577 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10225,7 +10260,7 @@
 	)
 	(global_label "DDR_DQ8"
 		(shape input)
-		(at 129.54 88.9 180)
+		(at 130.81 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10235,7 +10270,7 @@
 		)
 		(uuid "4c80b368-110b-4652-8702-cea6066cbb64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.9672 88.9 0)
+			(at 119.2372 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10522,28 +10557,6 @@
 		(uuid "69b8df2c-8787-4c5b-83cc-5cb377d351ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 68.7396 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DDR_ZQ"
-		(shape input)
-		(at 80.01 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6a83d7b5-0bc9-4630-81d8-d034c8880564")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.7072 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,7 +11052,7 @@
 	)
 	(global_label "DDR_DQ9"
 		(shape input)
-		(at 129.54 91.44 180)
+		(at 130.81 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11049,7 +11062,7 @@
 		)
 		(uuid "e75d70d0-d513-4b63-8fa5-cb2e920df3ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.9672 91.44 0)
+			(at 119.2372 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
