@@ -7783,7 +7783,8 @@
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
-				(color 0 0 132 1)
+				(italic yes)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "0154fa68-970e-4fca-a5eb-49a3294cda9f")
@@ -7808,7 +7809,8 @@
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
-				(color 0 0 132 1)
+				(italic yes)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "1805a77f-34e2-449d-a0da-456de487df6e")
@@ -7871,7 +7873,8 @@
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
-				(color 0 0 132 1)
+				(italic yes)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "4edac59b-90a6-43b1-a01d-24812922da42")
@@ -7884,7 +7887,8 @@
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
-				(color 0 0 132 1)
+				(italic yes)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "73299829-c2f8-4243-903b-bdb537bbf800")
@@ -7911,7 +7915,8 @@
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
-				(color 0 0 132 1)
+				(italic yes)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "85aca737-1fb4-4a21-9439-770bf9cf13d7")
@@ -7924,7 +7929,8 @@
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
-				(color 0 0 132 1)
+				(italic yes)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "8939d8d1-30fb-44fa-80d6-8271cec5fb01")
@@ -7937,7 +7943,8 @@
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
-				(color 0 0 132 1)
+				(italic yes)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "89419539-b4e2-4c81-8316-411536d1c96b")
@@ -7964,7 +7971,8 @@
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
-				(color 0 0 132 1)
+				(italic yes)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "b634b0eb-f90c-4d2e-8626-a06d770bbb41")
@@ -8037,7 +8045,8 @@
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
-				(color 0 0 132 1)
+				(italic yes)
+				(color 0 132 0 1)
 			)
 		)
 		(uuid "f65f517b-5f34-4887-8046-60a15bc32ca7")
@@ -8822,7 +8831,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 63.5) (xy 134.62 63.5)
+			(xy 127 63.5) (xy 134.62 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9082,7 +9091,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 66.04) (xy 134.62 66.04)
+			(xy 127 66.04) (xy 134.62 66.04)
 		)
 		(stroke
 			(width 0)
@@ -9820,6 +9829,26 @@
 		)
 		(uuid "ffef81e2-d461-4e1e-8849-d5787560c156")
 	)
+	(label "DDR_NCK"
+		(at 128.27 66.04 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f3015b8-bded-4872-9dbd-2bcad03228ac")
+	)
+	(label "DDR_CKE"
+		(at 128.27 63.5 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7a3b6ca-c1dd-4c0a-a281-a256284f5cc9")
+	)
 	(global_label "DDR_A14"
 		(shape input)
 		(at 80.01 116.84 180)
@@ -10548,7 +10577,7 @@
 	)
 	(global_label "DDR_CKE"
 		(shape input)
-		(at 129.54 63.5 180)
+		(at 127 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10558,7 +10587,7 @@
 		)
 		(uuid "7e2c7c9c-c6d4-4bd7-a271-d35d40c69286")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.0882 63.5 0)
+			(at 115.5482 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10592,7 +10621,7 @@
 	)
 	(global_label "DDR_NCK"
 		(shape input)
-		(at 129.54 66.04 180)
+		(at 127 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10602,7 +10631,7 @@
 		)
 		(uuid "8e7973a2-2409-429c-84ff-6d8bf7c28367")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.9067 66.04 0)
+			(at 115.3667 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
