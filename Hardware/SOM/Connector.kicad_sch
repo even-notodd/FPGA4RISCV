@@ -3768,6 +3768,28 @@
 			)
 		)
 	)
+	(global_label "BOOT_MODE_2"
+		(shape input)
+		(at 19.05 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bbafb29-04f3-4bdc-bfa2-0ca4f2676c34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.2794 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "JTAG_TCK"
 		(shape input)
 		(at 19.05 24.13 0)
@@ -3790,6 +3812,28 @@
 			)
 		)
 	)
+	(global_label "BOOT_MODE_1"
+		(shape input)
+		(at 19.05 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd84057a-ed5a-4097-b511-ffb9481dc1e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.2794 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "JTAG_TDO"
 		(shape input)
 		(at 19.05 21.59 0)
@@ -3803,6 +3847,28 @@
 		(uuid "db55fb7c-ae60-4ff9-9946-3b130a68c14c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.8647 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BOOT_MODE_0"
+		(shape input)
+		(at 19.05 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f96282d8-d08a-4817-886e-381f3e5bffc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.2794 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)

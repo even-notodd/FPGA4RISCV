@@ -2762,7 +2762,7 @@
 	)
 	(rectangle
 		(start 125.73 101.6)
-		(end 199.39 140.97)
+		(end 194.31 140.97)
 		(stroke
 			(width 0)
 			(type default)
@@ -2834,9 +2834,9 @@
 		)
 		(uuid "1e9e9851-a1d8-47c4-9d95-1a61189cdd21")
 	)
-	(text "Pull-ups and Termination"
+	(text "Pulls / Termination"
 		(exclude_from_sim no)
-		(at 153.162 105.41 0)
+		(at 146.812 105.156 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2871,6 +2871,20 @@
 			)
 		)
 		(uuid "8462fbcd-2dc9-4e6e-b99a-13a02ef0a142")
+	)
+	(text "REFERENCE VOLTAGE 0.75V"
+		(exclude_from_sim no)
+		(at 177.038 111.506 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 132 0 1)
+			)
+		)
+		(uuid "dfccfb5f-56c2-43da-a81b-4a6ab02bfc5b")
 	)
 	(text "(DS REV .1.1. Page 52)"
 		(exclude_from_sim no)
@@ -3005,6 +3019,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6bf41eb-1ed4-4d4d-b89a-d837d8020bea")
+	)
+	(junction
+		(at 179.07 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c91f0de7-f66f-4fda-b8fb-d40f1d9cbcb5")
 	)
 	(junction
 		(at 175.26 73.66)
@@ -3409,6 +3429,16 @@
 			(type default)
 		)
 		(uuid "4f2d3c28-3894-4199-ab3f-c842a1fe83d9")
+	)
+	(wire
+		(pts
+			(xy 170.18 125.73) (xy 179.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576044e7-016f-4653-9213-9d17f0617288")
 	)
 	(wire
 		(pts
@@ -5816,6 +5846,18 @@
 		)
 		(uuid "679f1e61-7502-4351-8992-ee02b6ef342a")
 	)
+	(label "DDR_VREF"
+		(at 85.09 35.56 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e1aeb62-f1f9-4e98-920b-ecc6714722e4")
+	)
 	(label "DDR_NCK"
 		(at 146.05 115.57 0)
 		(effects
@@ -5825,6 +5867,18 @@
 			(justify left bottom)
 		)
 		(uuid "9ee0a887-e5ae-4fbb-8397-2a637985b81e")
+	)
+	(label "DDR_VREF"
+		(at 170.18 125.73 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "be10a57a-d892-4cd5-8199-729266b043b6")
 	)
 	(label "DDR_CKE"
 		(at 127 115.57 0)
@@ -8222,6 +8276,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 179.07 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68e8b844-f6d0-4b71-bb04-7fd3c9150f42")
+		(property "Reference" "R9"
+			(at 183.134 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 183.134 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 180.848 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110012"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ff84a41-ccfd-46e7-a662-b1eaa8a51c6d")
+		)
+		(pin "2"
+			(uuid "0a472d0c-96bf-451c-ab5a-f7d9b7c82c69")
+		)
+		(instances
+			(project "LFE5UM5G-85F_SOM"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70285655-daa5-4a1b-b29b-80c93a345d65"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V5")
 		(at 132.08 38.1 0)
 		(unit 1)
@@ -8446,6 +8587,71 @@
 			(project "LFE5UM5G-85F_SOM"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70285655-daa5-4a1b-b29b-80c93a345d65"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 179.07 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f021d14-720a-4266-93e1-98ac52cd3168")
+		(property "Reference" "#PWR036"
+			(at 179.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 179.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaffb853-0947-4afa-bda9-bac768b79ae6")
+		)
+		(instances
+			(project "LFE5UM5G-85F_SOM"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70285655-daa5-4a1b-b29b-80c93a345d65"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9173,6 +9379,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 179.07 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce768e82-f08d-4dc6-82ad-01246427e4b3")
+		(property "Reference" "R10"
+			(at 184.404 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 183.134 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 180.848 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 179.07 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110012"
+			(at 179.07 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d1fbedd-549b-4c59-b492-9421a54cebe0")
+		)
+		(pin "2"
+			(uuid "3a8a9791-8ce1-43ba-9e5e-89b358b4ed65")
+		)
+		(instances
+			(project "LFE5UM5G-85F_SOM"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70285655-daa5-4a1b-b29b-80c93a345d65"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V5")
 		(at 77.47 30.48 0)
 		(unit 1)
@@ -9232,6 +9525,71 @@
 			(project "LFE5UM5G-85F_SOM"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70285655-daa5-4a1b-b29b-80c93a345d65"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V5")
+		(at 179.07 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfcae631-716d-4a51-8a3e-ef5e1d5634bb")
+		(property "Reference" "#PWR035"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1.5V"
+			(at 179.324 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V5\""
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d717d6c6-5ded-4648-a9fb-cbc4dde476f6")
+		)
+		(instances
+			(project "LFE5UM5G-85F_SOM"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70285655-daa5-4a1b-b29b-80c93a345d65"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
