@@ -3878,6 +3878,28 @@
 			)
 		)
 	)
+	(global_label "DONE"
+		(shape input)
+		(at 19.05 19.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa03be3a-a003-400f-8ad1-d6c1ff2f4624")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.1152 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "JTAG_TMS"
 		(shape input)
 		(at 19.05 29.21 0)
