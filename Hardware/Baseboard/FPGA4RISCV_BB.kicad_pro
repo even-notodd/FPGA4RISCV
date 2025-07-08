@@ -618,6 +618,10 @@
     [
       "e8a9a6a8-2e08-4606-b058-44f01919fc3b",
       "JTAG"
+    ],
+    [
+      "7b36eb32-e6b4-48cc-954e-a444a838f557",
+      "PCIe"
     ]
   ],
   "text_variables": {}

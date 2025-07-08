@@ -2612,7 +2612,7 @@
 	)
 	(global_label "FT_UART_RxD"
 		(shape input)
-		(at 71.12 72.39 0)
+		(at 142.24 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2622,7 +2622,7 @@
 		)
 		(uuid "160fba33-97fb-4771-b740-60c0fc67a89e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.3214 72.39 0)
+			(at 157.4414 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2788,7 +2788,7 @@
 	)
 	(global_label "FT_UART_TxD"
 		(shape input)
-		(at 71.12 69.85 0)
+		(at 142.24 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2798,7 +2798,7 @@
 		)
 		(uuid "d9fc45bc-7dde-4f4e-bef0-63f228e2edc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.019 69.85 0)
+			(at 157.139 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +2884,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "29c66449-551a-4b82-b3fc-eec8e70e6916")
+			(uuid "82462f2a-6366-47b4-b95b-1c9dd1d82c10")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -2949,7 +2949,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1333705d-588a-46f7-af52-81e591c6f3cf")
+			(uuid "ac7675b5-f392-4c7e-8824-58d6bd1f2309")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -3014,7 +3014,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b5d428a3-f5cd-492d-8c7e-9afb00e2f7b0")
+			(uuid "de57613c-cb42-4599-871c-75287ead538b")
 		)
 		(instances
 			(project "FPGA4RISCV_BB"
@@ -3035,7 +3035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f101dc91-cf7d-4bb9-85ea-67f3840d8fa5")
-		(property "Reference" "J1"
+		(property "Reference" "J?"
 			(at 146.05 40.64 0)
 			(effects
 				(font
@@ -3079,45 +3079,45 @@
 			)
 		)
 		(pin "12"
-			(uuid "6dc41f27-d547-4ffd-b840-1d9e3ce8df51")
+			(uuid "03e19f1c-7c51-439f-a5e8-13791dfe27a0")
 		)
 		(pin "8"
-			(uuid "a152bb78-67e6-4119-be3f-2e7eb7f65d19")
+			(uuid "4b4e804a-2aed-4046-a237-104b390a8f0c")
 		)
 		(pin "11"
-			(uuid "3150ee55-deca-4eec-a658-9f2d11c24ec6")
+			(uuid "fc9502b3-d397-4b7f-ac5c-0ce7735dc12f")
 		)
 		(pin "4"
-			(uuid "def7dc3b-8f7e-4b8d-a2dd-2afdedb2afcf")
+			(uuid "491efd27-a3a0-42c6-b189-67977e394c38")
 		)
 		(pin "7"
-			(uuid "bed39ef4-e661-41ba-aa3d-6c38e8c500c1")
+			(uuid "33b10982-3d54-4385-8bcf-2e564f50b60e")
 		)
 		(pin "1"
-			(uuid "07e2338a-56d7-4676-8083-9726f98b43c0")
+			(uuid "33781c1a-258c-4751-8b62-125996ecf8ee")
 		)
 		(pin "3"
-			(uuid "46a5b215-1140-46b5-9d32-d870c91d486e")
+			(uuid "03e8864b-37ea-4577-8b39-5582cecb152d")
 		)
 		(pin "10"
-			(uuid "0a776f9a-ae29-4183-9871-9ce7cbbb113f")
+			(uuid "f9431721-db68-4d0f-a4bc-273567d113e7")
 		)
 		(pin "2"
-			(uuid "987ce229-9cd1-4202-8c19-a42d30d959e9")
+			(uuid "5fb748b5-74ab-4f35-a938-8a86be24e981")
 		)
 		(pin "9"
-			(uuid "ca9c0954-a7a6-482f-b27b-5c87e1d1bbd1")
+			(uuid "206c8493-a487-415b-8aa8-4e7c8ba4cacc")
 		)
 		(pin "5"
-			(uuid "3458ed13-9258-4f8e-89ae-2ab261725d90")
+			(uuid "e1d27d11-a299-4518-ba35-d22c50486a63")
 		)
 		(pin "6"
-			(uuid "16459cc7-617a-4b7f-b5f0-27737a182c02")
+			(uuid "60aa89d1-b213-46dc-9d5e-ec63b117f126")
 		)
 		(instances
-			(project ""
+			(project "FPGA4RISCV_BB"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70720321-4fb8-41e5-9369-c55119823db0"
-					(reference "J1")
+					(reference "J?")
 					(unit 1)
 				)
 			)

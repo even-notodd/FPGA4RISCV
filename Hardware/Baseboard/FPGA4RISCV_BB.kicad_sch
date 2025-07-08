@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 57.15 68.58)
+		(at 128.27 83.82)
 		(size 30.48 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21,7 +21,7 @@
 		)
 		(uuid "3e341a33-6cca-42a8-9d48-3fc3ef712dcd")
 		(property "Sheetname" "SOM_Connector"
-			(at 57.404 75.438 0)
+			(at 128.524 90.678 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Sheetfile" "som.kicad_sch"
-			(at 57.15 79.3246 0)
+			(at 128.27 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,7 +49,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 52.07)
+		(at 147.32 67.31)
 		(size 26.67 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +64,7 @@
 		)
 		(uuid "57e37972-bd2e-4cdb-a07a-d9ebb5243a88")
 		(property "Sheetname" "Power supply"
-			(at 76.2 58.928 0)
+			(at 147.32 74.168 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -75,7 +75,7 @@
 			)
 		)
 		(property "Sheetfile" "ps.kicad_sch"
-			(at 76.2 62.8146 0)
+			(at 147.32 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -92,7 +92,7 @@
 		)
 	)
 	(sheet
-		(at 36.83 52.07)
+		(at 107.95 67.31)
 		(size 16.51 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -107,7 +107,7 @@
 		)
 		(uuid "70720321-4fb8-41e5-9369-c55119823db0")
 		(property "Sheetname" "DEBUG"
-			(at 38.354 58.928 0)
+			(at 109.474 74.168 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -118,7 +118,7 @@
 			)
 		)
 		(property "Sheetfile" "debug.kicad_sch"
-			(at 36.83 62.8146 0)
+			(at 107.95 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -135,7 +135,50 @@
 		)
 	)
 	(sheet
-		(at 58.42 52.07)
+		(at 107.95 83.82)
+		(size 16.51 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b36eb32-e6b4-48cc-954e-a444a838f557")
+		(property "Sheetname" "PCIe"
+			(at 111.76 90.932 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie.kicad_sch"
+			(at 107.95 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPGA4RISCV_BB"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 67.31)
 		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -150,7 +193,7 @@
 		)
 		(uuid "e8a9a6a8-2e08-4606-b058-44f01919fc3b")
 		(property "Sheetname" "JTAG"
-			(at 59.944 58.928 0)
+			(at 131.064 74.168 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -161,7 +204,7 @@
 			)
 		)
 		(property "Sheetfile" "jtag.kicad_sch"
-			(at 58.42 62.8146 0)
+			(at 129.54 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
