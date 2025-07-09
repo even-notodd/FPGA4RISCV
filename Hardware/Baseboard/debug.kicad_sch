@@ -2839,7 +2839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "355d11c4-e445-4646-8755-4216e9cbdc77")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR02"
 			(at 125.73 66.04 0)
 			(effects
 				(font
@@ -2889,7 +2889,7 @@
 		(instances
 			(project "FPGA4RISCV_BB"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70720321-4fb8-41e5-9369-c55119823db0"
-					(reference "#PWR023")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2904,7 +2904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3180abe-47f3-47cb-afce-c7b1ff75835f")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR03"
 			(at 162.56 50.8 0)
 			(effects
 				(font
@@ -2954,7 +2954,7 @@
 		(instances
 			(project "FPGA4RISCV_BB"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70720321-4fb8-41e5-9369-c55119823db0"
-					(reference "#PWR022")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2969,7 +2969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7921f22-e074-4531-a17e-d3ec62d153dc")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR01"
 			(at 125.73 58.42 0)
 			(effects
 				(font
@@ -3019,7 +3019,7 @@
 		(instances
 			(project "FPGA4RISCV_BB"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70720321-4fb8-41e5-9369-c55119823db0"
-					(reference "#PWR021")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3035,7 +3035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f101dc91-cf7d-4bb9-85ea-67f3840d8fa5")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 146.05 40.64 0)
 			(effects
 				(font
@@ -3117,7 +3117,7 @@
 		(instances
 			(project "FPGA4RISCV_BB"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70720321-4fb8-41e5-9369-c55119823db0"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)

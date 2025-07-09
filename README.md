@@ -12,12 +12,15 @@ Overview:
 SOM is supposed to be designed in a format of a SO-DIMM card (Small Outline Dual Inline Memory Module) with standard 200 pin board edge connector.
 SoM is based on Lattice FPGA chip LFE5UM5G-85F with dedicated DDR3 memory.
 
+![image](IMG/SOM_TOP.png)
+
 # Baseboard
 Baseboard is supposed to be more or less generic baseboard and planned to be used with other SoMs. Concequently it must have:
 - Power supply with several standard voltages
 - Ethernet Phy
 - USB 2.0 Phy & USB Hub
 - USB 3.0
+- PCIe
 - USB-JTAG
 - USB-UART
 - GPIO headers
