@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "FPGA4RISCV")(type "KiCad")(uri "${KIPRJMOD}/LIBs/FPGA4RISCV.pretty")(options "")(descr ""))
-)
