@@ -639,6 +639,10 @@
     [
       "43f6cb83-1191-4b95-bd87-2dcb3953d05b",
       "DBG"
+    ],
+    [
+      "f77c6771-4d2c-4758-b2c8-645a57d77cd0",
+      "PCIe+USB+ETH"
     ]
   ],
   "text_variables": {}

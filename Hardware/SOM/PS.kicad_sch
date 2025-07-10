@@ -238,19 +238,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "98d9a0bb-efab-449e-b7b3-9797ed939ff9")
+			(uuid "88205771-5497-43ce-b392-c3c7c2651879")
 		)
 		(pin "1"
-			(uuid "162a17df-3608-46aa-9d16-1032004d3c0d")
+			(uuid "17ebb1be-2e29-4573-9891-35a35371a0fe")
 		)
 		(pin "5"
-			(uuid "9ccf78f3-b329-483d-9376-6a0e7cd70cb2")
+			(uuid "52efab85-d654-456c-825c-e1b31cba3521")
 		)
 		(pin "2"
-			(uuid "0a6eaf12-af38-4528-b695-46ef86822aaf")
+			(uuid "3fc394e1-493e-41c4-8f91-dfba50aa2650")
 		)
 		(pin "3"
-			(uuid "67e76713-3459-4721-8158-25214239d505")
+			(uuid "6bbb799e-73a0-4437-ab52-20f626702ff1")
 		)
 		(instances
 			(project "LFE5UM5G-85F_SOM"

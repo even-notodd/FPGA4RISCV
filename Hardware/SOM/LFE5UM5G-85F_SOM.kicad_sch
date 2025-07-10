@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(rectangle
 		(start 72.39 81.28)
-		(end 134.62 154.94)
+		(end 134.62 150.876)
 		(stroke
 			(width 0)
 			(type default)
@@ -277,6 +277,50 @@
 			(project "LFE5UM5G-85F_SOM"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 85.09)
+		(size 33.02 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f77c6771-4d2c-4758-b2c8-645a57d77cd0")
+		(property "Sheetname" "PCIe+USB+ETH"
+			(at 89.154 92.202 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interfaces.kicad_sch"
+			(at 87.63 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LFE5UM5G-85F_SOM"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2"
+					(page "8")
 				)
 			)
 		)
