@@ -3758,9 +3758,119 @@
 			(embedded_fonts no)
 		)
 	)
+	(global_label "PCIe_TX1_P"
+		(shape input)
+		(at 266.7 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "081ddda0-2a5a-4140-83b2-0213a19dbfc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.8896 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCI_CLKREQ#"
+		(shape input)
+		(at 265.43 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c40ef62-83ab-427e-8600-3435930360c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.7448 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIe_TX3_P"
+		(shape input)
+		(at 266.7 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c7cf403-c4ab-4dc8-b5de-3b0e7ed55bad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.8896 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIe_TX0_N"
+		(shape input)
+		(at 266.7 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1199705f-c825-48fb-a550-2189d2bfa9c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.8291 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIe_TX2_P"
+		(shape input)
+		(at 266.7 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fa29c64-9ca3-4bc2-bda9-d18e3de0a017")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.8896 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "JTAG_TCK"
 		(shape input)
-		(at 229.87 66.04 0)
+		(at 252.73 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3770,7 +3880,7 @@
 		)
 		(uuid "34e9c242-e02f-4081-814f-8af7fede107e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.6242 66.04 0)
+			(at 264.4842 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,9 +3890,119 @@
 			)
 		)
 	)
+	(global_label "PCIe_RX0_P"
+		(shape input)
+		(at 266.7 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cab6943-0924-4225-a4c7-cc6d427144a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.5872 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIe_RX3_N"
+		(shape input)
+		(at 266.7 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58025f97-5660-4698-b76b-244a6385c378")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.5267 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIe_RX2_N"
+		(shape input)
+		(at 266.7 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e6e5d3b-341c-41ed-baf9-34f8dba4ed01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.5267 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIe_TX2_N"
+		(shape input)
+		(at 266.7 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60cb5ce1-43aa-4702-b981-385aa443887d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.8291 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIe_RX3_P"
+		(shape input)
+		(at 266.7 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "624551f5-d9d9-40ba-abc6-f8ae39cd43cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.5872 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FT_SDA"
 		(shape input)
-		(at 229.87 88.9 0)
+		(at 252.73 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3792,7 +4012,7 @@
 		)
 		(uuid "68703211-3e9f-4afa-9df0-2c0798ee7893")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.4471 88.9 0)
+			(at 262.3071 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +4024,7 @@
 	)
 	(global_label "FT_UART_RxD"
 		(shape input)
-		(at 229.87 81.28 0)
+		(at 252.73 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3814,7 +4034,7 @@
 		)
 		(uuid "70390113-0daa-4644-b329-e613b37fe09d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.0714 81.28 0)
+			(at 267.9314 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,9 +4044,75 @@
 			)
 		)
 	)
+	(global_label "PCIe_RX2_P"
+		(shape input)
+		(at 266.7 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71725418-6ae5-4f3b-9057-4d320f3ec943")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.5872 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCI_RST#"
+		(shape input)
+		(at 265.43 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87fbed7d-0279-456c-8cb2-13beeb992214")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.6153 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIe_RX0_N"
+		(shape input)
+		(at 266.7 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f38f7f8-4da6-4894-8eb0-dc35306c8b03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.5267 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "JTAG_TDO"
 		(shape input)
-		(at 229.87 71.12 0)
+		(at 252.73 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3836,7 +4122,7 @@
 		)
 		(uuid "9e7fbeb8-62da-42b2-9495-9dd68ecc8837")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.6847 71.12 0)
+			(at 264.5447 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,9 +4132,97 @@
 			)
 		)
 	)
+	(global_label "PCI_PEWAKE#"
+		(shape input)
+		(at 265.43 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab1f4062-deba-45bd-b27d-718f0366d95f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.6844 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIe_RX1_P"
+		(shape input)
+		(at 266.7 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b52353f9-484f-4a0b-8bf1-609ae36fd60a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.5872 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCI_SLEEP"
+		(shape input)
+		(at 265.43 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1699af3-5b68-4dab-920a-41924185a748")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.5268 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIe_TX3_N"
+		(shape input)
+		(at 266.7 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1f17f47-d883-4731-8e00-db5cf91568b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.8291 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FT_UART_TxD"
 		(shape input)
-		(at 229.87 78.74 0)
+		(at 252.73 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3858,7 +4232,7 @@
 		)
 		(uuid "d782cd2b-bd9c-4ff3-a3c3-1277bd47f1e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.769 78.74 0)
+			(at 267.629 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +4244,7 @@
 	)
 	(global_label "JTAG_TDI"
 		(shape input)
-		(at 229.87 68.58 0)
+		(at 252.73 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3880,7 +4254,7 @@
 		)
 		(uuid "dbc5e361-ceb2-4fd1-8dcf-334d64f0d7d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.959 68.58 0)
+			(at 263.819 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +4266,7 @@
 	)
 	(global_label "JTAG_TMS"
 		(shape input)
-		(at 229.87 73.66 0)
+		(at 252.73 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3902,7 +4276,7 @@
 		)
 		(uuid "e4363071-9a2c-42c8-aa7e-140e5d0c9cf0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.7451 73.66 0)
+			(at 264.6051 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,9 +4286,53 @@
 			)
 		)
 	)
+	(global_label "PCIe_TX0_P"
+		(shape input)
+		(at 266.7 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e63e1052-2d2e-4963-99f8-cfc863cef027")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.8896 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIe_TX1_N"
+		(shape input)
+		(at 266.7 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8303f04-ed68-43c6-86c7-fc373e8bf949")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.8291 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FT_SCL"
 		(shape input)
-		(at 229.87 86.36 0)
+		(at 252.73 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3924,12 +4342,34 @@
 		)
 		(uuid "ebeffa1c-d568-49dc-8454-97ce16455e2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.3866 86.36 0)
+			(at 262.2466 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIe_RX1_N"
+		(shape input)
+		(at 266.7 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2bf93d4-a5a3-4bca-95e4-bbf10bd30325")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.5267 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
