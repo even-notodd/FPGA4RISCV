@@ -6102,93 +6102,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 184.15 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "217f333e-a636-430d-b989-1839a82e37fd")
-		(property "Reference" "R9"
-			(at 185.42 72.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 185.42 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 182.372 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 184.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 184.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" " 560112110087"
-			(at 184.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbdb9ff6-08b6-46eb-b1c7-437df76d6302")
-		)
-		(pin "2"
-			(uuid "04f40200-6f88-4c87-afc0-f8f577faa7e7")
-		)
-		(instances
-			(project "FPGA4RISCV_BB"
-				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 184.15 78.74 0)
 		(unit 1)
@@ -6504,71 +6417,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 195.58 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "305d5ed3-4ad7-47c5-82d0-75c5b6b07f57")
-		(property "Reference" "#PWR022"
-			(at 195.58 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VCCIO8"
-			(at 195.072 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 195.58 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36ed34ae-e356-434f-8bf9-ce04683bab2f")
-		)
-		(instances
-			(project "FPGA4RISCV_BB"
-				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 92.71 144.78 0)
 		(unit 1)
@@ -6780,6 +6628,93 @@
 			(project "FPGA4RISCV_BB"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 184.15 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3be20102-85ec-4e16-974b-099194803014")
+		(property "Reference" "R9"
+			(at 185.42 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 185.42 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 182.372 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110245"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "135488ae-32e8-4b82-a451-122e3d54eb8c")
+		)
+		(pin "2"
+			(uuid "1028b48f-51d3-4b6a-84f3-6173aa3a33de")
+		)
+		(instances
+			(project "FPGA4RISCV_BB"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7765,6 +7700,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "FTDI"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " FT2232HL-REEL"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "21"
 			(uuid "1d6c1071-4436-4600-8835-4fc09ad07a31")
 		)
@@ -8328,71 +8281,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 218.44 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8880560e-5ac7-4480-98f8-6ffa194115b9")
-		(property "Reference" "#PWR024"
-			(at 218.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VCCIO8"
-			(at 217.932 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 218.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d55b773a-cce0-4dca-b6c5-d176d9103844")
-		)
-		(instances
-			(project "FPGA4RISCV_BB"
-				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RA8M1:885012205092")
 		(at 120.65 44.45 90)
 		(unit 1)
@@ -8552,6 +8440,71 @@
 			(project "FPGA4RISCV_BB"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 218.44 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e2fe83c-e26f-48b6-9de9-55166b5c1b78")
+		(property "Reference" "#PWR033"
+			(at 218.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 217.932 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 218.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1157511a-8b75-4420-8c09-9abfed2ef484")
+		)
+		(instances
+			(project "FPGA4RISCV_BB"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9528,6 +9481,71 @@
 			(project "FPGA4RISCV_BB"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 195.58 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8fd9907-7e58-45b7-90b0-71ffea584ca2")
+		(property "Reference" "#PWR022"
+			(at 195.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 195.072 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 195.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41000652-e5f4-400c-b08e-e3c53d46af07")
+		)
+		(instances
+			(project "FPGA4RISCV_BB"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

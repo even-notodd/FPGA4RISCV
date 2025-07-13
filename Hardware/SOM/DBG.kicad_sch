@@ -7666,6 +7666,12 @@
 		(uuid "10de34ba-9f66-48a7-b062-9457d9218f0d")
 	)
 	(junction
+		(at 27.94 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b3c453c-ef07-436d-bb84-144394251c7b")
+	)
+	(junction
 		(at 88.9 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7688,6 +7694,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e9eb6f9-30dd-4416-89e1-eadf306595a2")
+	)
+	(junction
+		(at 46.99 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74588fdb-939e-43b9-8dca-512257d93349")
 	)
 	(junction
 		(at 48.26 59.69)
@@ -7769,7 +7781,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 39.37) (xy 27.94 49.53)
+			(xy 27.94 39.37) (xy 27.94 41.91)
 		)
 		(stroke
 			(width 0)
@@ -7916,6 +7928,16 @@
 			(type default)
 		)
 		(uuid "4404ac47-80c9-4c44-8ccc-70f3729732a2")
+	)
+	(wire
+		(pts
+			(xy 27.94 41.91) (xy 31.75 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "546641c2-0a36-40e9-9e2f-901141838c89")
 	)
 	(wire
 		(pts
@@ -8266,6 +8288,26 @@
 			(type default)
 		)
 		(uuid "f154a210-1bbd-46d4-b8a2-5afa9bb7a2fa")
+	)
+	(wire
+		(pts
+			(xy 27.94 41.91) (xy 27.94 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1cc4a29-0bf9-4582-888a-61fc410b7cf8")
+	)
+	(wire
+		(pts
+			(xy 39.37 41.91) (xy 46.99 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4d26ef-9a58-4575-b599-4abf1c9cf408")
 	)
 	(wire
 		(pts
@@ -12523,6 +12565,93 @@
 			(project "LFE5UM5G-85F_SOM"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/43f6cb83-1191-4b95-bd87-2dcb3953d05b"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 35.56 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee10ae3f-1687-4ef6-99e5-fe7278b3708c")
+		(property "Reference" "R26"
+			(at 33.02 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 42.164 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 35.56 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 35.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 35.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110020"
+			(at 35.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6840d91-00fb-4c89-ab1b-8a85d4725385")
+		)
+		(pin "2"
+			(uuid "846d42a4-c6c1-44d2-a7f5-1b2ffeee30df")
+		)
+		(instances
+			(project "LFE5UM5G-85F_SOM"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/43f6cb83-1191-4b95-bd87-2dcb3953d05b"
+					(reference "R26")
 					(unit 1)
 				)
 			)

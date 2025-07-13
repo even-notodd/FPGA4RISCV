@@ -4290,6 +4290,26 @@
 		)
 		(uuid "fdd31b39-2470-411e-8a21-c3fd6c14ce20")
 	)
+	(label "PCI_CFG_0"
+		(at 128.27 101.6 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "663985fb-e56c-4542-bcae-7bae9ecff5f2")
+	)
+	(label "PCI_CFG_3"
+		(at 131.826 127 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "698b5479-63f8-4464-8ca1-7946c1455f9b")
+	)
 	(label "PCI_CFG_2"
 		(at 128.27 43.18 0)
 		(effects
