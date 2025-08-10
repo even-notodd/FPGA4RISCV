@@ -8894,7 +8894,7 @@
 		(dnp no)
 		(uuid "68e8b844-f6d0-4b71-bb04-7fd3c9150f42")
 		(property "Reference" "R9"
-			(at 272.034 40.894 0)
+			(at 270.764 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
