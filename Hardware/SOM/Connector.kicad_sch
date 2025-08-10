@@ -5153,7 +5153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35a91793-5a5c-4b85-a450-a76a2291ad16")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR067"
 			(at 29.21 33.02 0)
 			(effects
 				(font
@@ -5203,7 +5203,7 @@
 		(instances
 			(project "LFE5UM5G-85F_SOM"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/5afb2ac4-dadb-4f86-a03f-bc72f6fc34d4"
-					(reference "#PWR074")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5898,7 +5898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9f54bfa-6bfb-44e2-b3d8-d7c7430f0caa")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR068"
 			(at 29.21 64.77 0)
 			(effects
 				(font
@@ -5948,7 +5948,7 @@
 		(instances
 			(project "LFE5UM5G-85F_SOM"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/5afb2ac4-dadb-4f86-a03f-bc72f6fc34d4"
-					(reference "#PWR075")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)

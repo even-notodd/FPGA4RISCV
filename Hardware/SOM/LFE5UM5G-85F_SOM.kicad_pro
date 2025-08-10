@@ -494,7 +494,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.121,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -506,13 +506,13 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.121,
-        "via_diameter": 0.3,
+        "via_diameter": 0.35,
         "via_drill": 0.15,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.105,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -523,13 +523,13 @@
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.105,
-        "via_diameter": 0.3,
+        "via_diameter": 0.35,
         "via_drill": 0.15,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.105,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -539,13 +539,13 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.105,
-        "via_diameter": 0.3,
+        "track_width": 0.22,
+        "via_diameter": 0.35,
         "via_drill": 0.15,
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.15,
@@ -555,7 +555,7 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.5,
+        "via_diameter": 0.35,
         "via_drill": 0.15
       }
     ],
@@ -572,6 +572,14 @@
       {
         "netclass": "DDR3_DQS",
         "pattern": "DDR_LDQS_N"
+      },
+      {
+        "netclass": "DDR3_DQS",
+        "pattern": "DDR_UDQS_P"
+      },
+      {
+        "netclass": "DDR3_DQS",
+        "pattern": "DDR_UDQS_N"
       }
     ]
   },
@@ -709,7 +717,7 @@
     ],
     [
       "2798ff7a-264e-45e9-a081-6e03072ed147",
-      "QSPI"
+      "QSPI (page 5)"
     ],
     [
       "c12b65b4-6107-4b66-8aa5-205f87459293",
