@@ -32,7 +32,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2798ff7a-264e-45e9-a081-6e03072ed147")
-		(property "Sheetname" "QSPI (page 5)"
+		(property "Sheetname" "QSPI"
 			(at 90.424 104.648 0)
 			(effects
 				(font
