@@ -12973,7 +12973,7 @@
 			)
 		)
 	)
-	(global_label "DDR_CK"
+	(global_label "DDR_CKE"
 		(shape input)
 		(at 218.44 60.96 180)
 		(fields_autoplaced yes)
@@ -12985,7 +12985,7 @@
 		)
 		(uuid "ef74e015-134f-4d9c-98bc-723bd823717a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.1372 60.96 0)
+			(at 206.9882 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

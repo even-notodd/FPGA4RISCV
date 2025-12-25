@@ -6211,6 +6211,16 @@
 		)
 		(uuid "59482ac5-d90e-4bb2-bbdd-996ce9ae1611")
 	)
+	(label "DDR_CK_P"
+		(at 46.99 95.25 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "65a85533-1986-42c5-9f98-922fb70a3799")
+	)
 	(label "ZQ"
 		(at 88.9 107.95 0)
 		(effects
@@ -6253,7 +6263,17 @@
 		)
 		(uuid "7b23e813-e92a-4f9a-9b05-f64ff27732fa")
 	)
-	(label "DDR_NCK"
+	(label "DDR_CK_N"
+		(at 46.99 97.79 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "9728bbf1-3b56-447e-9d46-cdcfa396aa39")
+	)
+	(label "DDR_CK_N"
 		(at 228.6 95.25 0)
 		(effects
 			(font
@@ -6295,7 +6315,7 @@
 		)
 		(uuid "be10a57a-d892-4cd5-8199-729266b043b6")
 	)
-	(label "DDR_CKE"
+	(label "DDR_CK_P"
 		(at 209.55 95.25 0)
 		(effects
 			(font
@@ -6897,7 +6917,7 @@
 			)
 		)
 	)
-	(global_label "DDR_CK_P"
+	(global_label "DDR_CKE"
 		(shape input)
 		(at 45.72 100.33 180)
 		(fields_autoplaced yes)
@@ -6909,7 +6929,7 @@
 		)
 		(uuid "90918d96-c49c-4f02-aa1c-d631f99d6cbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.1796 100.33 0)
+			(at 34.2682 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6963,7 +6983,7 @@
 			)
 		)
 	)
-	(global_label "DDR_CK"
+	(global_label "DDR_CK_P"
 		(shape input)
 		(at 45.72 95.25 180)
 		(fields_autoplaced yes)
@@ -6975,7 +6995,7 @@
 		)
 		(uuid "9a7e657a-eb9f-4147-9e00-bbf70668cbcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.4172 95.25 0)
+			(at 33.1796 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
