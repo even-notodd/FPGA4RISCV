@@ -120,8 +120,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5afb2ac4-dadb-4f86-a03f-bc72f6fc34d4")
-		(property "Sheetname" "SOM Connector"
-			(at 89.408 130.048 0)
+		(property "Sheetname" "Mechanical"
+			(at 92.71 130.302 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -131,7 +131,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Connector.kicad_sch"
+		(property "Sheetfile" "Mechanical.kicad_sch"
 			(at 87.63 133.9346 0)
 			(effects
 				(font

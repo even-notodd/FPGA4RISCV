@@ -13,6 +13,8 @@ SOM is supposed to be designed in a format of a SO-DIMM card (Small Outline Dual
 SoM is based on Lattice FPGA chip LFE5UM5G-85F with dedicated DDR3 memory.
 
 ![image](IMG/SOM_TOP.png)
+![image](IMG/SOM_BOTTOM.png)
+
 
 # Baseboard
 Baseboard is supposed to be more or less generic baseboard and planned to be used with other SoMs. Concequently it must have:
