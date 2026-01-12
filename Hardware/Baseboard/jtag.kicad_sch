@@ -3436,12 +3436,6 @@
 		(uuid "a2022125-5491-4164-bc49-41ed9cd489f2")
 	)
 	(junction
-		(at 81.28 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3719122-7db9-4157-8294-2663cb9707df")
-	)
-	(junction
 		(at 96.52 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4087,7 +4081,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 71.12) (xy 72.39 71.12)
+			(xy 69.85 71.12) (xy 78.74 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4667,7 +4661,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 59.69) (xy 81.28 71.12)
+			(xy 78.74 66.04) (xy 78.74 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4984,16 +4978,6 @@
 			(type default)
 		)
 		(uuid "acbd9a8b-a656-4f0e-a0da-0ab744d040cb")
-	)
-	(wire
-		(pts
-			(xy 81.28 71.12) (xy 80.01 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acdc034f-5cc2-400f-b9e8-8db5ba658ee4")
 	)
 	(wire
 		(pts
@@ -8597,7 +8581,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 81.28 59.69 0)
+		(at 78.74 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8605,7 +8589,7 @@
 		(dnp no)
 		(uuid "95def099-8497-41a9-a9d3-bf37561e61fc")
 		(property "Reference" "#PWR08"
-			(at 81.28 63.5 0)
+			(at 78.74 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8614,7 +8598,7 @@
 			)
 		)
 		(property "Value" "+5V_USB"
-			(at 80.772 55.626 0)
+			(at 78.232 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8622,7 +8606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 59.69 0)
+			(at 78.74 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8631,7 +8615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 59.69 0)
+			(at 78.74 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,7 +8624,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 81.28 59.69 0)
+			(at 78.74 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8846,106 +8830,6 @@
 			(project "FPGA4RISCV_BB"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
 					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RA8M1:885012205092")
-		(at 81.28 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a62cddeb-ebc4-4237-82d4-991524b7efcf")
-		(property "Reference" "C2"
-			(at 90.678 67.818 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 91.948 69.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 90.17 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at 90.17 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 90.17 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "885012205092"
-			(at 90.17 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0011cf5-a51b-413c-aff0-5f9b6dfc573e")
-		)
-		(pin "2"
-			(uuid "a532b745-9d23-4434-9583-cd82606ee289")
-		)
-		(instances
-			(project "FPGA4RISCV_BB"
-				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10433,92 +10317,6 @@
 			(project "FPGA4RISCV_BB"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 76.2 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea2dbd13-bc95-4cbf-aef7-1e1b656e6aa3")
-		(property "Reference" "L1"
-			(at 76.2 69.342 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "600R 500mA"
-			(at 76.2 69.342 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 76.2 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 76.2 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110245"
-			(at 76.2 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1bff40dc-d871-4d65-9f2e-1ba90c9ff536")
-		)
-		(pin "1"
-			(uuid "dd66d961-3568-4380-a65c-66fd5854d608")
-		)
-		(instances
-			(project "FPGA4RISCV_BB"
-				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/e8a9a6a8-2e08-4606-b058-44f01919fc3b"
-					(reference "L1")
 					(unit 1)
 				)
 			)
