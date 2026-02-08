@@ -2837,7 +2837,7 @@
 	)
 	(text "PULL-UPS"
 		(exclude_from_sim no)
-		(at 223.774 31.75 0)
+		(at 217.678 32.004 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3050,6 +3050,12 @@
 		(uuid "a865493c-73df-409e-ad62-31969c1a6887")
 	)
 	(junction
+		(at 233.68 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a97edaba-ec28-4928-b676-458598f60dd3")
+	)
+	(junction
 		(at 189.23 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3084,12 +3090,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d06448c4-8e1b-4b98-9cab-0f683051354e")
-	)
-	(junction
-		(at 233.68 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8722398-43d3-40bf-ac6f-a2f0f245935c")
 	)
 	(junction
 		(at 74.93 35.56)
@@ -3614,6 +3614,16 @@
 			(type default)
 		)
 		(uuid "5cf6aa3c-bfba-44cd-acdd-15e414490a2e")
+	)
+	(wire
+		(pts
+			(xy 233.68 36.83) (xy 233.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61db99d1-5861-44b5-8065-b05a714e1c9a")
 	)
 	(wire
 		(pts
@@ -9700,71 +9710,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V5")
-		(at 233.68 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a5927b6c-7a42-45cb-8a71-8ba9e551217b")
-		(property "Reference" "#PWR062"
-			(at 233.68 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "1.5V"
-			(at 233.934 34.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V5\""
-			(at 233.68 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79d9e6da-71a7-4249-b402-efcc3eb0485d")
-		)
-		(instances
-			(project "LFE5UM5G-85F_SOM"
-				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70285655-daa5-4a1b-b29b-80c93a345d65"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Memory_RAM:AS4C256M16D3")
 		(at 69.85 82.55 0)
 		(unit 1)
@@ -10494,6 +10439,71 @@
 			(project "LFE5UM5G-85F_SOM"
 				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70285655-daa5-4a1b-b29b-80c93a345d65"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V5")
+		(at 233.68 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bafcbfef-d859-4a0d-917e-20a4312a86bf")
+		(property "Reference" "#PWR010"
+			(at 233.68 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DDR_VDD_1.5V"
+			(at 233.172 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V5\""
+			(at 233.68 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfdf7afd-caf2-4d9f-b219-bd0da0e0d1da")
+		)
+		(instances
+			(project "LFE5UM5G-85F_SOM"
+				(path "/de32abb0-ff3b-4c67-a91a-eed08140b1b2/70285655-daa5-4a1b-b29b-80c93a345d65"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
